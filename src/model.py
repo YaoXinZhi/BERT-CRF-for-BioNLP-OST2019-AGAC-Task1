@@ -56,6 +56,7 @@ class BERT_CRF(nn.Module):
         batch_attention_mask = batch_encoded_inputs['attention_mask']
         emissions = self.tag_outputs(batch_encoded_inputs)
 
+        # loss = -1 * self.crf_layer.forward(emissions, batch_label_idx, batch_attention_mask.byte())
         loss = self.crf_layer.forward(emissions, batch_label_idx, batch_attention_mask.byte())
 
         return loss
@@ -65,5 +66,4 @@ class BERT_CRF(nn.Module):
         attention_mask = encoded_input['attention_mask']
 
         emissions = self.tag_outputs(encoded_input)
-        return self.crf.viterbi_decode(emissions, attention_mask.byte())
-
+        return self.crf_layer.decode(emissions, attention_mask.byte())

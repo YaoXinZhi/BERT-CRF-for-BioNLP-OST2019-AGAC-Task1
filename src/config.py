@@ -23,14 +23,21 @@ class args:
         self.max_length = 128
 
         self.hidden_size = 768
+        self.droupout_prob = 0.3
         self.num_tags = 25
 
-        self.learning_rate = 0.05
+        self.learning_rate = 1e-5
         self.optimizer = 'adam'
         self.weight_decay = 0.01
         self.momentum = 0.05
 
-        self.droupout_prob = 0.3
+        self.max_steps = 0
+        self.num_train_epochs = 100
+        self.gradient_accumulation_steps = 10
+        self.warmup_steps = 10
+        self.adam_epsilon = 1e-8
+
+        self.logging_step = 20
 
 
 

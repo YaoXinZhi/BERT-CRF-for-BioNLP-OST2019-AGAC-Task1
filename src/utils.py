@@ -73,3 +73,13 @@ def boolean_string(s):
     if s not in {'False', 'True'}:
         raise ValueError('Not a valid boolean string')
     return s == 'True'
+
+def prediction_padding_del(batch_prediction_result, batch_attention_mask):
+    """
+    :param prediction_result:  b
+    :param batch_attention_mask:
+    :return:
+    """
+    pass
+
+
