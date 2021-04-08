@@ -34,7 +34,7 @@ class args:
         # fixme: add [PAD]
         self.num_tags = 26
 
-        self.learning_rate = 5e-5
+        self.learning_rate = 4e-5
         # sgd adam adamw
         self.optimizer = 'adam'
         self.weight_decay = 1e-5
@@ -48,7 +48,8 @@ class args:
 
         self.logging_step = 20
         self.example_step = 10
-        self.model_save_path = '../model.pkl'
+        self.print_example = True
+        self.log_save_path = '../logging'
+        self.model_save_name = 'bert-crf.pkl'
         self.log_file = '../log.txt'
         self.save_log_file = False
-

@@ -6,8 +6,8 @@ Created on 07/04/2021 12:53
 """
 
 import os
+import time
 import logging
-import os
 import random
 import numpy as np
 
@@ -22,12 +22,7 @@ from TorchCRF import CRF
 
 from tensorboardX import SummaryWriter
 
-# from src.model import BERT_CRF, BertCRFTagger
-# from src.utils import *
-# from src.dataloader import SeqLabeling_Dataset
-# from src.config import args
-#
-from model import BERT_CRF, BertCRFTagger
+from model import BertCRFTagger
 from utils import *
 from dataloader import SeqLabeling_Dataset
 from config import args
@@ -37,7 +32,6 @@ from seqeval.metrics import precision_score
 from seqeval.metrics import accuracy_score
 from seqeval.metrics import recall_score
 from seqeval.metrics import classification_report
-
 
 def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
     model.eval()
@@ -65,9 +59,10 @@ def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
             predict_label_list = convert_index_to_label(predict_result, index_to_label)
             ture_label_list = label_truncation(batch_label_list, batch_max_length)
 
-            logger.debug('Example:')
-            logger.debug(f'predict: {predict_label_list[0]}')
-            logger.debug(f'ture: {ture_label_list[0]}')
+            if args.print_example:
+                logger.debug('Example:')
+                logger.debug(f'predict: {predict_label_list[0]}')
+                logger.debug(f'ture: {ture_label_list[0]}')
 
             for predict_list, ture_list in zip(predict_label_list, ture_label_list):
                 if len(predict_list) != len(ture_list):
@@ -78,8 +73,6 @@ def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
                 total_pred_label.append(predict_list)
                 total_ture_label.append(ture_list)
 
-
-    # logger.debug(f'{total_ture_label}\n{total_pred_label}')
     logger.debug(f'total ture_label: {len(total_ture_label)}, '
                  f'total pred_label: {len(total_pred_label)}')
 
@@ -99,7 +92,7 @@ def main(paras):
         logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                             datefmt = '%m/%d/%Y %H:%M:%S',
                             level = logging.DEBUG,
-                            filename=paras.log_file,
+                            filename=f'{paras.log_save_path}/{paras.log_file}',
                             filemode='w')
     else:
         logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
@@ -115,7 +108,6 @@ def main(paras):
 
     vocab_dict = tokenizer.get_vocab()
 
-    # train dataset
     train_dataset = SeqLabeling_Dataset(paras.train_data, paras.label_file, vocab_dict)
     label_to_index = train_dataset.label_to_index
     index_to_label = train_dataset.index_to_label
@@ -123,7 +115,6 @@ def main(paras):
     train_dataloader = DataLoader(train_dataset, batch_size=paras.batch_size,
                                   shuffle=paras.shuffle, drop_last=paras.drop_last)
 
-    # test dataset
     test_dataset = SeqLabeling_Dataset(paras.test_data, paras.label_file, vocab_dict)
     test_dataloader = DataLoader(test_dataset, batch_size=paras.batch_size,
                                  shuffle=paras.shuffle, drop_last=paras.drop_last)
@@ -134,9 +125,7 @@ def main(paras):
 
     optimizer = torch.optim.Adam(bert_crf_tagger.parameters(), lr=paras.learning_rate)
 
-
-    # train
-    best_loss = 0
+    best_eval = {'acc': 0, 'precision': 0, 'recall': 0, 'f1': 0, 'loss': 0}
     for epoch in range(paras.num_train_epochs):
         epoch_loss = 0
         bert_crf_tagger.train()
@@ -151,21 +140,8 @@ def main(paras):
                                                             vocab_dict.get('[PAD]'),
                                                             vocab_dict.get('[CLS]'),
                                                             vocab_dict.get('[SEP]'))
-
             input_ids = input_ids.to(device)
             mask = mask.to(device)
-
-            # break
-            # encoded_input = tokenizer(batch_data_list,
-            #                           return_offsets_mapping=True,
-            #                           max_length=paras.max_length,
-            #                           truncation=True,
-            #                           is_split_into_words=True,
-            #                           padding=True,
-            #                           return_tensors='pt').to(device)
-
-            # input_ids = encoded_input['input_ids']
-            # mask = encoded_input['attention_mask'].byte()
 
             batch_max_length = input_ids.shape[1]
             batch_label_pad = label_padding(paras.max_length,batch_max_length, batch_label_list,
@@ -179,19 +155,6 @@ def main(paras):
 
             logger.info(f'epoch: {epoch}, step: {step}, loss: {loss:.4f}')
 
-            # if step % args.example_step:
-            #     data_exp = input_ids[0]
-            #     label_exp = batch_label_pad[0]
-            #
-            #     token_list = [tokenizer.decode(token) for token in data_exp]
-            #     label_list = [index_to_label[index] for index in label_exp]
-
-
-            # acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
-            #                                         index_to_label, tokenizer, paras)
-            # logger.info(f'ACC.: {acc:.4f}, Precision: {precision:.4f}, '
-            #             f'Recall: {recall:.4f}, F1-score: {f1:.4f}')
-
             loss.backward()
             optimizer.step()
 
@@ -200,14 +163,28 @@ def main(paras):
         acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
                                                 index_to_label, vocab_dict, paras, device)
 
-        if best_loss == 0 or epoch_loss < best_loss:
-            best_loss = epoch_loss
-            torch.save(bert_crf_tagger, paras.model_save_path)
-            logger.info(f'update model, best loss: {best_loss:.4f}')
-
         logger.info(f'Epoch: {epoch}, Loss: {epoch_loss}')
         logger.info(f'ACC.: {acc:.4f}, Precision: {precision:.4f}, '
               f'Recall: {recall:.4f}, F1-score: {f1:.4f}')
+
+        if best_eval['loss'] == 0 or f1 > best_eval['f1']:
+            best_eval['loss'] = epoch_loss
+            best_eval['acc'] = acc
+            best_eval['precision'] = precision
+            best_eval['recall'] = recall
+            best_eval['f1'] = f1
+            torch.save(bert_crf_tagger, f'{paras.log_save_path}/{paras.model_save_name}')
+
+            with open(f'{paras.log_save_path}/checkpoint.log') as wf:
+                wf.write(f'Save time: {time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())}\n')
+                wf.write(f'Best F1-score: {best_eval["f1"]:.4f}\n')
+                wf.write(f'Best Precision: {best_eval["precision"]:.4f}\n')
+                wf.write(f'Best Recall: {best_eval["recall"]:.4f}\n')
+                wf.write(f'Best Accuracy: {best_eval["acc"]:.4f}\n')
+                wf.write(f'Best Loss: {best_eval["loss"]:.4f}\n')
+
+            logger.info(f'update model, best F1-score: {best_eval["f1"]:.4f}\n')
+
 
 
 
