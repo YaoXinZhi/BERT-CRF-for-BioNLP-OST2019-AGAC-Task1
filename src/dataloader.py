@@ -15,10 +15,13 @@ logger.setLevel(logging.NOTSET)
 
 
 class SeqLabeling_Dataset(Dataset):
-    def __init__(self, data_path: str, label_path: str):
+    def __init__(self, data_path: str, label_path: str, vocab_dict: dict,
+                 unknown_token='[UNK]'):
 
         self.data_path = data_path
         self.label_path = label_path
+        self.vocab_dict = vocab_dict
+        self.unknown_token = unknown_token
         self.data = []
         self.label = []
 
@@ -26,11 +29,12 @@ class SeqLabeling_Dataset(Dataset):
         self.label_to_index = {}
         self.index_to_label = {}
 
-        self.read_data()
         self.read_label()
+        self.read_data()
         logging.info(f'Data Path: {self.data_path},'
-              f' Data size: {len(self.data):,} sentences.')
-        logging.info(f'Label count: {len(self.label_set)}.')
+              f' Data size: {len(self.data):,} sentences,'
+                     f' {len(self.label):,} labels.')
+        logging.info(f'Total label count: {len(self.label_set)}.')
 
     def __len__(self):
         return len(self.data)
@@ -57,21 +61,35 @@ class SeqLabeling_Dataset(Dataset):
                 l = line.strip().split('\t')
                 if len(l) < 2:
                     if data_list and label_list:
-
                         # Warning label list
                         if label_list[0].startswith('I-'):
                             logging.warning(f'Warning label prefix:')
                             logging.warning(data_list)
                             logging.warning(label_list)
 
+                        # fixme: Only load data with annotations
+                        if not any(label.startswith('B-') or label.startswith('I-') for label in label_list):
+                            continue
+
+                        data_index_list = [str(self.vocab_dict[token]) for token in data_list]
+
                         # fixme: joined by &&&
-                        self.data.append('&&&'.join(data_list))
+                        # fixme: data_index_list
+                        self.data.append('&&&'.join(data_index_list))
                         self.label.append('&&&'.join(label_list))
+
                         data_list = []
                         label_list = []
 
                 else:
                     token, label = l
+
+                    # fixme: [UNK] token replace
+                    if not self.vocab_dict.get(token):
+                        token = self.unknown_token
+                        token_idx = self.vocab_dict.get(self.unknown_token)
+                    else:
+                        token_idx = self.vocab_dict.get(token)
 
                     if not (label.startswith('B-') or label.startswith('I-') or label == 'O'):
                         logging.warning('wrong label:')
@@ -79,9 +97,6 @@ class SeqLabeling_Dataset(Dataset):
 
                     data_list.append(token)
                     label_list.append(label)
-            if (data_list, label_list) not in self.data:
-                self.data.append((data_list, label_list))
-
 
 
 if __name__ == '__main__':

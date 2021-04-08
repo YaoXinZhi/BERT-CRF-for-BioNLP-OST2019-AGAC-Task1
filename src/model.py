@@ -56,9 +56,9 @@ class BERT_CRF(nn.Module):
         batch_attention_mask = batch_encoded_inputs['attention_mask']
         emissions = self.tag_outputs(batch_encoded_inputs)
 
-        # loss = -1 * self.crf_layer.forward(emissions, batch_label_idx, batch_attention_mask.byte())
-        loss = self.crf_layer.forward(emissions, batch_label_idx, batch_attention_mask.byte())
-
+        # fixme 20210406
+        loss = -1 * self.crf_layer.forward(torch.log_softmax(emissions, dim=2), batch_label_idx, batch_attention_mask.byte(), reduction='mean')
+        # loss = self.crf_layer.forward(emissions, batch_label_idx, batch_attention_mask.byte())
         return loss
 
     def predict(self, encoded_input):
@@ -67,3 +67,25 @@ class BERT_CRF(nn.Module):
 
         emissions = self.tag_outputs(encoded_input)
         return self.crf_layer.decode(emissions, attention_mask.byte())
+
+class BertCRFTagger(nn.Module):
+
+    def __init__(self, bert, hidden_size, num_tags, dropout):
+        super().__init__()
+        self.bert = bert
+        self.crf = CRF(num_tags, batch_first=True)
+        self.fc = nn.Linear(hidden_size, num_tags)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, input_ids, mask, tags=None):
+        bert_output = self.bert(input_ids)
+        last_hidden_state = bert_output['hidden_states' ][ -1 ]
+
+        emission = self.fc(last_hidden_state)
+
+        if tags is not None:
+            loss = -self.crf(torch.log_softmax(emission, dim=2), tags, mask=mask, reduction='mean')
+            return loss
+        else:
+            prediction = self.crf.decode(emission, mask=mask)
+            return prediction
