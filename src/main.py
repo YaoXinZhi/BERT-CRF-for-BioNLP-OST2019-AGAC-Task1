@@ -17,6 +17,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 
 from transformers import BertTokenizerFast, BertModel, BertTokenizer
+from transformers import AdamW, get_linear_schedule_with_warmup
 
 from TorchCRF import CRF
 
@@ -84,7 +85,6 @@ def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
     return acc, precision, recall, f1
 
 
-
 def main(paras):
 
     logger = logging.getLogger(__name__)
@@ -119,11 +119,27 @@ def main(paras):
     test_dataloader = DataLoader(test_dataset, batch_size=paras.batch_size,
                                  shuffle=paras.shuffle, drop_last=paras.drop_last)
 
-
     bert_crf_tagger = BertCRFTagger(bert, paras.hidden_size, paras.num_tags,
                                 paras.droupout_prob).to(device)
 
-    optimizer = torch.optim.Adam(bert_crf_tagger.parameters(), lr=paras.learning_rate)
+    if paras.optimizer == 'adam':
+        logger.info('Loading Adam optimizer.')
+        optimizer = torch.optim.Adam(bert_crf_tagger.parameters(), lr=paras.learning_rate)
+    elif paras.optimizer == 'adamw':
+        logger.info('Loading AdamW optimizer.')
+        no_decay = ['bias', 'LayerNorm.weight']
+        optimizer_grouped_parameters = [
+            {'params': [ p for n, p in bert_crf_tagger.named_parameters() if not any(nd in n for nd in no_decay) ],
+              'weight_decay': 0.01},
+            {'params': [ p for n, p in bert_crf_tagger.named_parameters() if any(nd in n for nd in no_decay) ],
+             'weight_decay': 0.0}
+        ]
+        optimizer = AdamW(optimizer_grouped_parameters, lr=paras.learning_rate,
+                          eps=args.adam_epsilon)
+    else:
+        logger.warning(f'optimizer must be "Adam" or "AdamW", but got {paras.optimizer}.')
+        logger.info('Loading Adam optimizer.')
+        optimizer = torch.optim.Adam(bert_crf_tagger.parameters(), lr=paras.learning_rate)
 
     best_eval = {'acc': 0, 'precision': 0, 'recall': 0, 'f1': 0, 'loss': 0}
     for epoch in range(paras.num_train_epochs):
@@ -175,7 +191,7 @@ def main(paras):
             best_eval['f1'] = f1
             torch.save(bert_crf_tagger, f'{paras.log_save_path}/{paras.model_save_name}')
 
-            with open(f'{paras.log_save_path}/checkpoint.log') as wf:
+            with open(f'{paras.log_save_path}/checkpoint.log', 'w') as wf:
                 wf.write(f'Save time: {time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())}\n')
                 wf.write(f'Best F1-score: {best_eval["f1"]:.4f}\n')
                 wf.write(f'Best Precision: {best_eval["precision"]:.4f}\n')
@@ -183,15 +199,15 @@ def main(paras):
                 wf.write(f'Best Accuracy: {best_eval["acc"]:.4f}\n')
                 wf.write(f'Best Loss: {best_eval["loss"]:.4f}\n')
 
-            logger.info(f'update model, best F1-score: {best_eval["f1"]:.4f}\n')
-
+            logger.info(f'Updated model, best F1-score: {best_eval["f1"]:.4f}\n')
 
 
 
 if __name__ == '__main__':
 
     args = args()
-    # paras = args()
+
+    set_seed(args.seed)
 
     main(args)
 

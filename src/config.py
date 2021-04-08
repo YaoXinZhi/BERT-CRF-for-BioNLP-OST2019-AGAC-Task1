@@ -14,8 +14,8 @@ class args:
 
         self.label_file = '../data/label.txt'
 
-        # fixme: biobert-base-cased
-        # self.model_name = 'bert-base-cased'
+        self.seed = 126
+
         self.model_name = 'dmis-lab/biobert-base-cased-v1.1'
         self.do_lower_case = False
 
@@ -23,7 +23,7 @@ class args:
         self.seq_token = '[SEP]'
         self.cls_token = '[CLS]'
 
-        self.batch_size = 2
+        self.batch_size = 1
         self.shuffle = True
         self.drop_last = False
         self.max_length = 128
@@ -34,17 +34,16 @@ class args:
         # fixme: add [PAD]
         self.num_tags = 26
 
-        self.learning_rate = 4e-5
+        self.learning_rate = 5e-5
         # sgd adam adamw
-        self.optimizer = 'adam'
+        self.optimizer = 'adamw'
         self.weight_decay = 1e-5
-        self.momentum = 0.05
 
         self.max_steps = 0
         self.num_train_epochs = 15
-        self.gradient_accumulation_steps = 10
         self.warmup_steps = 10
         self.adam_epsilon = 1e-8
+        self.num_warmup_steps=50
 
         self.logging_step = 20
         self.example_step = 10
