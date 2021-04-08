@@ -39,14 +39,13 @@ from seqeval.metrics import recall_score
 from seqeval.metrics import classification_report
 
 
-def evaluation(model, data_loader, index_to_label, tokenizer, paras):
+def evaluation(model, data_loader, index_to_label, vocab_dict, paras):
     model.eval()
 
     total_pred_label = []
     total_ture_label = []
     with torch.no_grad():
         for step, batch in enumerate(data_loader):
-
             batch_data, batch_label = batch
             batch_data_list = [data.split('&&&') for data in batch_data]
             batch_label_list = [label.split('&&&') for label in batch_label]
@@ -71,11 +70,11 @@ def evaluation(model, data_loader, index_to_label, tokenizer, paras):
             logger.debug(f'ture: {ture_label_list[0]}')
 
             for predict_list, ture_list in zip(predict_label_list, ture_label_list):
-                # if len(predict_list) != len(ture_list):
-                #     logger.debug('different length.')
-                #     logger.debug(f'predict: {len(predict_list)}, ture: {len(ture_list)}')
-                    # logger.debug(f'{predict_list}\n{ture_list}')
-                    # continue
+                if len(predict_list) != len(ture_list):
+                    logger.debug('different length.')
+                    logger.debug(f'predict: {len(predict_list)}, ture: {len(ture_list)}')
+                    logger.debug(f'{predict_list}\n{ture_list}')
+                    continue
                 total_pred_label.append(predict_list)
                 total_ture_label.append(ture_list)
 
@@ -190,7 +189,7 @@ def main(paras):
         epoch_loss = epoch_loss / len(train_dataloader)
 
         acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
-                                                index_to_label, tokenizer, paras)
+                                                index_to_label, vocab_dict, paras)
 
         if best_loss == 0 or epoch_loss < best_loss:
             best_loss = epoch_loss
