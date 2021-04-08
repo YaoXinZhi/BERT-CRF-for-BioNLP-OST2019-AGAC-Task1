@@ -178,6 +178,15 @@ def main(paras):
             epoch_loss += loss.detach().cpu().item()
 
             logger.info(f'epoch: {epoch}, step: {step}, loss: {loss:.4f}')
+
+            # if step % args.example_step:
+            #     data_exp = input_ids[0]
+            #     label_exp = batch_label_pad[0]
+            #
+            #     token_list = [tokenizer.decode(token) for token in data_exp]
+            #     label_list = [index_to_label[index] for index in label_exp]
+
+
             # acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
             #                                         index_to_label, tokenizer, paras)
             # logger.info(f'ACC.: {acc:.4f}, Precision: {precision:.4f}, '

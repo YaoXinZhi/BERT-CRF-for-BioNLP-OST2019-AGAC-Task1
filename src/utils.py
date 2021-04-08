@@ -81,7 +81,7 @@ def label_padding(seq_max_length, batch_max_length: int, batch_label_list: list,
     else:
         max_length = batch_max_length
 
-    pad_idx = label_to_index[ '[PAD]' ]
+    pad_idx = label_to_index['[PAD]']
     batch_label_idx = convert_label_to_index(batch_label_list, label_to_index)
 
     batch_label_pad = [ ]
@@ -126,6 +126,13 @@ def convert_index_to_token(batch_index_list: list, tokenizer):
     for idx_list in batch_index_list:
         batch_token_list.append([''.join(tokenizer.decode(idx).split()) for idx in idx_list])
     return batch_token_list
+
+
+def convert_index_to_label_single(index_list: list, index_to_label: dict):
+    return [index_to_label[idx] for idx in index_list]
+
+def convert_index_to_token_single(index_list: list, tokenizer):
+    return [tokenizer.decode(index) for index in index_list]
 
 
 def label_truncation(batch_label_list: list, max_length: int):

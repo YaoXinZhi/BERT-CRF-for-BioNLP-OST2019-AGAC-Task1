@@ -23,7 +23,7 @@ class args:
         self.seq_token = '[SEP]'
         self.cls_token = '[CLS]'
 
-        self.batch_size = 32
+        self.batch_size = 2
         self.shuffle = True
         self.drop_last = False
         self.max_length = 128
@@ -47,6 +47,7 @@ class args:
         self.adam_epsilon = 1e-8
 
         self.logging_step = 20
+        self.example_step = 10
         self.model_save_path = '../model.pkl'
         self.log_file = '../log.txt'
         self.save_log_file = False
