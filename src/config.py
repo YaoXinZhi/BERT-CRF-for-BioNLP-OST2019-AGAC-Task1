@@ -29,8 +29,10 @@ class args:
         self.max_length = 128
 
         self.hidden_size = 768
-        self.droupout_prob = 0.3
-        self.num_tags = 25
+        self.droupout_prob = 0.03
+        # self.num_tags = 25
+        # fixme: add [PAD]
+        self.num_tags = 26
 
         self.learning_rate = 5e-5
         # sgd adam adamw
@@ -48,5 +50,4 @@ class args:
         self.model_save_path = '../model.pkl'
         self.log_file = '../log.txt'
         self.save_log_file = False
-
 

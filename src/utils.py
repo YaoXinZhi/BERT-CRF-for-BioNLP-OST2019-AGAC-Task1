@@ -74,19 +74,32 @@ def boolean_string(s):
     return s == 'True'
 
 
-def label_padding(batch_max_length: int, batch_label_list: list,
-                  label_to_index:dict):
+def label_padding(seq_max_length, batch_max_length: int, batch_label_list: list,
+                  label_to_index: dict, return_tensor=True):
+    if batch_max_length > seq_max_length:
+        max_length = seq_max_length
+    else:
+        max_length = batch_max_length
 
-    out_idx = label_to_index['O']
+    pad_idx = label_to_index[ '[PAD]' ]
     batch_label_idx = convert_label_to_index(batch_label_list, label_to_index)
 
-    batch_label_pad = []
+    batch_label_pad = [ ]
     for label_list in batch_label_idx:
-        if len(label_list) > batch_max_length:
-            batch_label_pad.append(label_list[:batch_max_length])
+        if len(label_list) > (max_length - 2):
+            label_list = label_list[ :max_length - 2 ]
+            label_list.insert(0, pad_idx)
+            label_list.append(pad_idx)
+            batch_label_pad.append(label_list)
         else:
-            pad_list = label_list + ([out_idx] * (batch_max_length - len(label_list)))
-            batch_label_pad.append(pad_list)
+            label_list.insert(0, pad_idx)
+            label_list.append(pad_idx)
+            label_list = label_list + ([ pad_idx ] * (max_length - len(label_list)))
+            batch_label_pad.append(label_list)
+
+    if return_tensor:
+        return torch.LongTensor(batch_label_pad)
+
     return batch_label_pad
 
 
@@ -121,7 +134,7 @@ def label_truncation(batch_label_list: list, max_length: int):
         if len(label_list) > max_length:
             process_label_list.append(label_list[:max_length-2])
         else:
-            process_label_list.append(label_list)
+            process_label_list.append(label_list[:-2])
     return process_label_list
 
 

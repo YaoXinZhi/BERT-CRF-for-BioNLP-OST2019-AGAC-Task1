@@ -168,7 +168,7 @@ def main(paras):
             # mask = encoded_input['attention_mask'].byte()
 
             batch_max_length = input_ids.shape[1]
-            batch_label_pad = label_padding(batch_max_length, batch_label_list,
+            batch_label_pad = label_padding(paras.max_length,batch_max_length, batch_label_list,
                                             label_to_index)
 
             batch_label_pad = torch.LongTensor(batch_label_pad)
