@@ -16059,6 +16059,7 @@ C	O
 p	O
 .	O
 L105P.	O
+
 We	O
 show	O
 here	O
@@ -28024,24 +28025,20 @@ variants	O
 (	O
 KCNQ1-p	O
 .	O
-
 R583H	O
 ,	O
 KCNH2-p	O
 .	O
-
 C108Y	O
 ,	O
 KCNH2-p	O
 .	O
-
 K897	O
 T	O
 ,	O
 and	O
 KCNE1-p	O
 .	O
-
 G38S	O
 )	O
 in	O
@@ -28079,12 +28076,10 @@ channels	O
 ,	O
 KCNQ1-p	O
 .	O
-
 R583H	O
 and	O
 KCNH2-p	O
 .	O
-
 C108Y	O
 ,	O
 using	O
@@ -28102,7 +28097,6 @@ found	O
 that	O
 KCNQ1-p	O
 .	O
-
 R583H	O
 was	O
 not	O
@@ -28116,7 +28110,6 @@ impairment	O
 whereas	O
 KCNH2-p	B-Var
 .	I-Var
-
 C108Y	I-Var
 ,	O
 a	O
@@ -28149,13 +28142,11 @@ common	O
 variants	O
 KCNH2-p	O
 .	O
-
 K897	O
 T	O
 and	O
 KCNE1-p	O
 .	O
-
 G38S	O
 were	O
 previously	O
@@ -28192,19 +28183,16 @@ mutation	O
 whereas	O
 KCNQ1-p	O
 .	O
-
 R583H	O
 ,	O
 KCNH2-p	O
 .	O
-
 K897	O
 T	O
 ,	O
 and	O
 KCNE1-p	O
 .	O
-
 G38S	O
 could	O
 be	O
@@ -28835,7 +28823,6 @@ regimes	O
 
 Registered	O
 at	O
-h	www.clinicaltrials.gov
 :	O
 NCT00199056	O
 ,	O
@@ -55626,7 +55613,6 @@ c.292C	B-Var
 >	I-Var
 T(p	I-Var
 .	I-Var
-
 Arg98	I-Var
 *	I-Var
 )	I-Var
@@ -59961,7 +59947,8 @@ risk	O
 increasing	O
 PNPLA3	O
 p	O
-./OI148	O
+.	O
+I148	O
 M	O
 allele	O
 and	O
@@ -64521,7 +64508,6 @@ GIRK1	O
 and	O
 GIRK2(p	O
 .	O
-
 Leu171Arg	O
 )	O
 did	O
