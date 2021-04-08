@@ -39,7 +39,7 @@ from seqeval.metrics import recall_score
 from seqeval.metrics import classification_report
 
 
-def evaluation(model, data_loader, index_to_label, vocab_dict, paras):
+def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
     model.eval()
 
     total_pred_label = []
@@ -189,7 +189,7 @@ def main(paras):
         epoch_loss = epoch_loss / len(train_dataloader)
 
         acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
-                                                index_to_label, vocab_dict, paras)
+                                                index_to_label, vocab_dict, paras, device)
 
         if best_loss == 0 or epoch_loss < best_loss:
             best_loss = epoch_loss
