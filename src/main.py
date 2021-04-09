@@ -166,8 +166,6 @@ def main(paras):
 
             loss.backward()
             optimizer.step()
-            acc_non_O, acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
-                                                               index_to_label, vocab_dict, paras, device)
 
         epoch_loss = epoch_loss / len(train_dataloader)
 
