@@ -1,0 +1,7 @@
+seqeval==1.2.2
+torch==1.8.1
+pytorch_crf==0.7.2
+numpy==1.19.4
+transformers==4.4.2
+tensorboardX==2.2
+TorchCRF==1.1.0
