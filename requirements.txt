@@ -1,6 +1,4 @@
-seqeval==1.2.2
-torch==1.8.1
-numpy==1.19.4
-transformers==4.4.2
-tensorboardX==2.2
+transformers==2.1.1
+torch==1.7.1+cu110
+numpy==1.18.5
 TorchCRF==1.1.0
