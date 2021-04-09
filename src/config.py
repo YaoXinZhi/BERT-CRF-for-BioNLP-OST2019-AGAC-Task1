@@ -15,7 +15,7 @@ class args:
         self.label_file = '../data/label.txt'
 
         self.seed = 126
-
+        self.load_labeled_data = True
         self.model_name = 'dmis-lab/biobert-base-cased-v1.1'
         self.do_lower_case = False
 
@@ -29,7 +29,8 @@ class args:
         self.max_length = 128
 
         self.hidden_size = 768
-        self.droupout_prob = 0.03
+        # fixme: 0.3
+        self.droupout_prob = 0.3
         # self.num_tags = 25
         # fixme: add [PAD]
         self.num_tags = 26
@@ -40,7 +41,7 @@ class args:
         self.weight_decay = 1e-5
 
         self.max_steps = 0
-        self.num_train_epochs = 15
+        self.num_train_epochs = 50
         self.warmup_steps = 10
         self.adam_epsilon = 1e-8
         self.num_warmup_steps=50

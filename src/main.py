@@ -35,6 +35,11 @@ from seqeval.metrics import recall_score
 from seqeval.metrics import classification_report
 
 def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
+    """
+    Contributor:
+        Peng Qianqian: conlleval.pl for model evaluation.
+        Oyang Sizhuo: conlleval.pl for model evaluation.
+    """
     model.eval()
 
     total_pred_label = []
@@ -86,18 +91,17 @@ def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
 
 
 def main(paras):
-
     logger = logging.getLogger(__name__)
     if args.save_log_file:
         logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                             datefmt = '%m/%d/%Y %H:%M:%S',
-                            level = logging.DEBUG,
+                            level = logging.INFO,
                             filename=f'{paras.log_save_path}/{paras.log_file}',
                             filemode='w')
     else:
         logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                             datefmt = '%m/%d/%Y %H:%M:%S',
-                            level = logging.DEBUG,)
+                            level = logging.INFO,)
 
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -210,5 +214,4 @@ if __name__ == '__main__':
     set_seed(args.seed)
 
     main(args)
-
 
