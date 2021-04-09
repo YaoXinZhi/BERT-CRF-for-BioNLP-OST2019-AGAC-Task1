@@ -7,9 +7,8 @@ Created on 07/04/2021 12:53
 
 import os
 import time
-import logging
 import random
-import numpy as np
+import logging
 
 import torch
 import torch.nn as nn
@@ -21,24 +20,17 @@ from transformers import AdamW, get_linear_schedule_with_warmup
 
 from TorchCRF import CRF
 
-from tensorboardX import SummaryWriter
-
 from model import BertCRFTagger
 from utils import *
 from dataloader import SeqLabeling_Dataset
 from config import args
-
-from seqeval.metrics import f1_score
-from seqeval.metrics import precision_score
-from seqeval.metrics import accuracy_score
-from seqeval.metrics import recall_score
-from seqeval.metrics import classification_report
+from conll_eval import evaluate
 
 def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
     """
     Contributor:
-        Peng Qianqian: conlleval.pl for model evaluation.
-        Oyang Sizhuo: conlleval.pl for model evaluation.
+        QianQian Peng: conlleval.pl evaluation.
+        Sizhuo Oyang: Conllevla.pl evaluation.
     """
     model.eval()
 
@@ -76,32 +68,29 @@ def evaluation(model, data_loader, index_to_label, vocab_dict, paras, device):
                     logger.debug(f'predict: {len(predict_list)}, ture: {len(ture_list)}')
                     logger.debug(f'{predict_list}\n{ture_list}')
                     continue
-                total_pred_label.append(predict_list)
-                total_ture_label.append(ture_list)
+                total_pred_label.extend(predict_list)
+                total_ture_label.extend(ture_list)
 
     logger.debug(f'total ture_label: {len(total_ture_label)}, '
                  f'total pred_label: {len(total_pred_label)}')
 
-    acc = accuracy_score(total_ture_label, total_pred_label)
-    precision = precision_score(total_ture_label, total_pred_label)
-    recall = recall_score(total_ture_label, total_pred_label)
-    f1 = f1_score(total_ture_label, total_pred_label)
-
-    return acc, precision, recall, f1
+    (precision, recall, f_score), acc_non_o, acc_inc_o,  = evaluate(total_ture_label, total_pred_label)
+    return acc_non_o, acc_inc_o, precision, recall, f_score
 
 
 def main(paras):
+
     logger = logging.getLogger(__name__)
     if args.save_log_file:
         logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                             datefmt = '%m/%d/%Y %H:%M:%S',
-                            level = logging.INFO,
+                            level = paras.logging_level,
                             filename=f'{paras.log_save_path}/{paras.log_file}',
                             filemode='w')
     else:
         logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                             datefmt = '%m/%d/%Y %H:%M:%S',
-                            level = logging.INFO,)
+                            level = paras.logging_level,)
 
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -145,7 +134,7 @@ def main(paras):
         logger.info('Loading Adam optimizer.')
         optimizer = torch.optim.Adam(bert_crf_tagger.parameters(), lr=paras.learning_rate)
 
-    best_eval = {'acc': 0, 'precision': 0, 'recall': 0, 'f1': 0, 'loss': 0}
+    best_eval = {'acc_non_O': 0 ,'acc': 0, 'precision': 0, 'recall': 0, 'f1': 0, 'loss': 0}
     for epoch in range(paras.num_train_epochs):
         epoch_loss = 0
         bert_crf_tagger.train()
@@ -177,19 +166,22 @@ def main(paras):
 
             loss.backward()
             optimizer.step()
+            acc_non_O, acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
+                                                               index_to_label, vocab_dict, paras, device)
 
         epoch_loss = epoch_loss / len(train_dataloader)
 
-        acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
+        acc_non_O, acc, precision, recall, f1 = evaluation(bert_crf_tagger, test_dataloader,
                                                 index_to_label, vocab_dict, paras, device)
 
-        logger.info(f'Epoch: {epoch}, Loss: {epoch_loss}')
-        logger.info(f'ACC.: {acc:.4f}, Precision: {precision:.4f}, '
+        logger.info(f'Epoch: {epoch}, Epoch-Average Loss: {epoch_loss}')
+        logger.info(f'ACC_non_O: {acc_non_O:.4f}, ACC_inc_O: {acc:.4f}, Precision: {precision:.4f}, '
               f'Recall: {recall:.4f}, F1-score: {f1:.4f}')
 
         if best_eval['loss'] == 0 or f1 > best_eval['f1']:
             best_eval['loss'] = epoch_loss
             best_eval['acc'] = acc
+            best_eval['acc_non_O'] = acc_non_O
             best_eval['precision'] = precision
             best_eval['recall'] = recall
             best_eval['f1'] = f1
@@ -198,13 +190,15 @@ def main(paras):
             with open(f'{paras.log_save_path}/checkpoint.log', 'w') as wf:
                 wf.write(f'Save time: {time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())}\n')
                 wf.write(f'Best F1-score: {best_eval["f1"]:.4f}\n')
-                wf.write(f'Best Precision: {best_eval["precision"]:.4f}\n')
-                wf.write(f'Best Recall: {best_eval["recall"]:.4f}\n')
-                wf.write(f'Best Accuracy: {best_eval["acc"]:.4f}\n')
-                wf.write(f'Best Loss: {best_eval["loss"]:.4f}\n')
+                wf.write(f'Precision: {best_eval["precision"]:.4f}\n')
+                wf.write(f'Recall: {best_eval["recall"]:.4f}\n')
+                wf.write(f'Accuracy(include-O): {best_eval["acc"]:.4f}\n')
+                wf.write(f'Accuracy(none-O): {best_eval["acc_non_O"]:.4f}\n')
+                wf.write(f'Epoch-Average Loss: {best_eval["loss"]:.4f}\n')
 
             logger.info(f'Updated model, best F1-score: {best_eval["f1"]:.4f}\n')
 
+    logger.info(f'Train complete, Best F1-score: {best_eval["f1"]:.4f}.')
 
 
 if __name__ == '__main__':
@@ -214,4 +208,3 @@ if __name__ == '__main__':
     set_seed(args.seed)
 
     main(args)
-

@@ -36,7 +36,7 @@ def split_tag(chunk_tag):
     B-PER -> (B, PER)
     O -> (O, None)
     """
-    if chunk_tag == 'O' or chunk_tag == '[UNK]':
+    if chunk_tag == 'O' or chunk_tag == '[PAD]':
         return ('O', None)
     return chunk_tag.split('-', maxsplit=1)
 
@@ -173,12 +173,11 @@ def get_result(correct_chunks, true_chunks, pred_chunks,
     chunk_types = sorted(list(set(list(true_chunks) + list(pred_chunks))))
 
     # compute overall precision, recall and FB1 (default values are 0.0)
-    prec, rec, f1 = calc_metrics(sum_correct_chunks, sum_pred_chunks, sum_true_chunks)
-    res = (prec, rec, f1)
+    precision, recall, f1_score = calc_metrics(sum_correct_chunks, sum_pred_chunks, sum_true_chunks)
+    res = (precision, recall, f1_score)
     if not verbose:
         return res
 
-    # print overall performance, and performance per chunk type
     print("processed %i tokens with %i phrases; " % (sum_true_counts, sum_true_chunks), end='')
     print("found: %i phrases; correct: %i.\n" % (sum_pred_chunks, sum_correct_chunks), end='')
 
@@ -186,7 +185,7 @@ def get_result(correct_chunks, true_chunks, pred_chunks,
     acc_inc_o = 100*sum_correct_counts/sum_true_counts
     print("accuracy: %6.2f%%; (non-O)" % (acc_non_o))
     print("accuracy: %6.2f%%; " % (acc_inc_o), end='')
-    print("precision: %6.2f%%; recall: %6.2f%%; FB1: %6.2f" % (prec, rec, f1))
+    print("precision: %6.2f%%; recall: %6.2f%%; FB1: %6.2f" % (precision, recall, f1_score))
 
     # for each chunk type, compute precision, recall and FB1 (default values are 0.0)
     for t in chunk_types:
@@ -197,7 +196,7 @@ def get_result(correct_chunks, true_chunks, pred_chunks,
         print("  %d" % pred_chunks[ t ])
 
 
-    return res, acc_non_o, acc_inc_o, prec, rec, f1
+    return res, acc_non_o, acc_inc_o
     # you can generate LaTeX output for tables like in
     # http://cnts.uia.ac.be/conll2003/ner/example.tex
     # but I'm not implementing this
@@ -205,9 +204,9 @@ def get_result(correct_chunks, true_chunks, pred_chunks,
 def evaluate(true_seqs, pred_seqs, verbose=True):
     (correct_chunks, true_chunks, pred_chunks,
         correct_counts, true_counts, pred_counts) = count_chunks(true_seqs, pred_seqs)
-    result = get_result(correct_chunks, true_chunks, pred_chunks,
+    result, acc_non_o, acc_inc_o = get_result(correct_chunks, true_chunks, pred_chunks,
                         correct_counts, true_counts, verbose=verbose)
-    return result
+    return result, acc_non_o, acc_inc_o
 
 def evaluate_conll_file(fileIterator):
     true_seqs, pred_seqs = [], []

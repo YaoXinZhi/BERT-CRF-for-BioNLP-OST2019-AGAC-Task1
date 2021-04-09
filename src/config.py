@@ -5,10 +5,11 @@ Created on 31/03/2021 9:38
 @Author: XINZHI YAO
 """
 
+import logging
+
 
 class args:
     def __init__(self):
-        # self.data_path = 'H:/AGAC_NER/data/test_data.txt'
         self.train_data = '../data/train_input.txt'
         self.test_data = '../data/test_input.txt'
 
@@ -40,8 +41,7 @@ class args:
         self.optimizer = 'adamw'
         self.weight_decay = 1e-5
 
-        self.max_steps = 0
-        self.num_train_epochs = 50
+        self.num_train_epochs = 100
         self.warmup_steps = 10
         self.adam_epsilon = 1e-8
         self.num_warmup_steps=50
@@ -49,6 +49,7 @@ class args:
         self.logging_step = 20
         self.example_step = 10
         self.print_example = True
+        self.logging_level = logging.INFO
         self.log_save_path = '../logging'
         self.model_save_name = 'bert-crf.pkl'
         self.log_file = '../log.txt'
