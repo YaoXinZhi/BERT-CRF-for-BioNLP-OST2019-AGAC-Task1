@@ -12,7 +12,7 @@ pip3 install -r requirements.txt
 ```
 python3 main.py
 ```
-**Adjust hyperparameters**  
+**modify hyperparameters**  
 You can modify the model hyperparameters by editing the config.py file.  
 ```vi config.py```
 
