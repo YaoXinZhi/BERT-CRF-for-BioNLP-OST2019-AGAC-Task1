@@ -28,12 +28,12 @@ data/test_input.txt
 
 ### Evaluation
 The current model evaluation uses the Conlleval.pl script.  
-**Best Model:**   
+**Best Model: (On test set)**   
 
  
  **Model** | **Accuracy**  | **Precision** | **Recall**    | **F1-score**
  ---- | ----- | ------  | ------    | ------ 
- **BERT+CRF**  | **0.9506** | **0.4746**| **0.5578**| **0.5128**
+ **BERT+CRF**  | **95.7730** | *54.6274**| **56.4596**| **55.5284**
 
 
 ### Reference
