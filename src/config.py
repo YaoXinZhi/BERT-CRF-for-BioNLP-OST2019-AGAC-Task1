@@ -24,7 +24,7 @@ class args:
         self.seq_token = '[SEP]'
         self.cls_token = '[CLS]'
 
-        self.batch_size = 1
+        self.batch_size = 4
         self.shuffle = True
         self.drop_last = False
         self.max_length = 128
@@ -52,5 +52,5 @@ class args:
         self.logging_level = logging.INFO
         self.log_save_path = '../logging'
         self.model_save_name = 'bert-crf.pkl'
-        self.log_file = '../log.txt'
-        self.save_log_file = False
+        self.log_file = 'log.txt'
+        self.save_log_file = True
