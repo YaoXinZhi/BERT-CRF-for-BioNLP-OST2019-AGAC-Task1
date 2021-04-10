@@ -33,7 +33,7 @@ The current model evaluation uses the Conlleval.pl script.
  
  **Model** | **Accuracy**  | **Precision** | **Recall**    | **F1-score**
  ---- | ----- | ------  | ------    | ------ 
- **BERT+CRF**  | **95.7730** | *54.6274**| **56.4596**| **55.5284**
+ **BERT+CRF**  | **95.7730** | **54.6274**| **56.4596**| **55.5284**
 
 
 ### Reference
