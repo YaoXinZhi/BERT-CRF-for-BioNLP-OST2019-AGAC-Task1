@@ -39,5 +39,5 @@ The current model evaluation uses the Conlleval.pl script.
 ### Reference
 1. **Conlleval.py** https://github.com/sighsmile/conlleval
 2. **Conlleval.pl** https://www.clips.uantwerpen.be/conll2000/chunking/output.html
-3. **AGAC OST-2019 Task**  https://sites.google.com/view/bionlp-ost19-agac-track
+3. **BioNLP OST-2019 AGAC Task**  https://sites.google.com/view/bionlp-ost19-agac-track
 
