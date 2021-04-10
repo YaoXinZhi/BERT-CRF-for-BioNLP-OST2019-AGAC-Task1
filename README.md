@@ -1,4 +1,4 @@
-## BERT-CRF for AGAC BioNLP OST2019-Task1
+## BERT-CRF for BioNLP-OST2019 AGAC-Task1
 
 ### Requirements
 
