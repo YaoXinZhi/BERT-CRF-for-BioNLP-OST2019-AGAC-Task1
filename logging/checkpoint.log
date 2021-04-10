@@ -1,6 +1,7 @@
-Save time: 2021-04-09 04:49:48
-Best F1-score: 0.5262
-Best Precision: 0.5161
-Best Recall: 0.5366
-Best Accuracy: 0.9559
-Best Loss: 0.6655
+Save time: 2021-04-10 10:18:08
+Best F1-score: 55.5284
+Precision: 54.6274
+Recall: 56.4596
+Accuracy(include-O): 95.7730
+Accuracy(none-O): 61.8858
+Epoch-Average Loss: 0.1901
