@@ -1,0 +1,1501 @@
+processed 43128 tokens with 1610 phrases; found: 95 phrases; correct: 70.
+accuracy:   4.71%; (non-O)
+accuracy:  93.31%; precision:  73.68%; recall:   4.35%; FB1:   8.21
+              CPA: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+          Disease: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             Gene: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+      Interaction: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              MPA: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+           NegReg: precision:  75.00%; recall:  18.56%; FB1:  29.75  24
+          Pathway: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+           PosReg: precision:  28.57%; recall:   3.92%; FB1:   6.90  7
+          Protein: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              Reg: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              Var: precision:  78.12%; recall:  12.85%; FB1:  22.08  64
+processed 43128 tokens with 1610 phrases; found: 1103 phrases; correct: 545.
+accuracy:  32.90%; (non-O)
+accuracy:  94.57%; precision:  49.41%; recall:  33.85%; FB1:  40.18
+              CPA: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+          Disease: precision:  23.15%; recall:  10.04%; FB1:  14.01  108
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             Gene: precision:  71.28%; recall:  42.81%; FB1:  53.49  188
+      Interaction: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              MPA: precision:  24.59%; recall:  32.61%; FB1:  28.04  183
+           NegReg: precision:  77.11%; recall:  65.98%; FB1:  71.11  83
+          Pathway: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+           PosReg: precision:  62.50%; recall:  49.02%; FB1:  54.95  40
+          Protein: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              Reg: precision:  87.50%; recall:  10.49%; FB1:  18.73  32
+              Var: precision:  48.07%; recall:  57.58%; FB1:  52.40  466
+processed 43128 tokens with 1610 phrases; found: 1765 phrases; correct: 785.
+accuracy:  53.32%; (non-O)
+accuracy:  94.86%; precision:  44.48%; recall:  48.76%; FB1:  46.52
+              CPA: precision:  17.14%; recall:  14.29%; FB1:  15.58  35
+          Disease: precision:  31.84%; recall:  51.41%; FB1:  39.32  402
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             Gene: precision:  50.00%; recall:  65.50%; FB1:  56.71  410
+      Interaction: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              MPA: precision:  24.40%; recall:  29.71%; FB1:  26.80  168
+           NegReg: precision:  78.16%; recall:  70.10%; FB1:  73.91  87
+          Pathway: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+           PosReg: precision:  62.50%; recall:  58.82%; FB1:  60.61  48
+          Protein: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+              Reg: precision:  53.85%; recall:  23.60%; FB1:  32.81  117
+              Var: precision:  49.09%; recall:  62.72%; FB1:  55.08  497
+processed 43128 tokens with 1610 phrases; found: 1580 phrases; correct: 743.
+accuracy:  52.32%; (non-O)
+accuracy:  95.01%; precision:  47.03%; recall:  46.15%; FB1:  46.58
+              CPA: precision:  12.15%; recall:  30.95%; FB1:  17.45  107
+          Disease: precision:  36.64%; recall:  49.00%; FB1:  41.92  333
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             Gene: precision:  71.43%; recall:  54.31%; FB1:  61.71  238
+      Interaction: precision:  40.00%; recall:  40.00%; FB1:  40.00  5
+              MPA: precision:  23.26%; recall:  21.74%; FB1:  22.47  129
+           NegReg: precision:  72.55%; recall:  76.29%; FB1:  74.37  102
+          Pathway: precision:  20.00%; recall:  50.00%; FB1:  28.57  15
+           PosReg: precision:  69.23%; recall:  70.59%; FB1:  69.90  52
+          Protein: precision:   5.41%; recall:  10.00%; FB1:   7.02  74
+              Reg: precision:  53.46%; recall:  31.84%; FB1:  39.91  159
+              Var: precision:  55.74%; recall:  52.44%; FB1:  54.04  366
+processed 43128 tokens with 1610 phrases; found: 2104 phrases; correct: 933.
+accuracy:  64.74%; (non-O)
+accuracy:  95.02%; precision:  44.34%; recall:  57.95%; FB1:  50.24
+              CPA: precision:  10.53%; recall:  14.29%; FB1:  12.12  57
+          Disease: precision:  40.40%; recall:  57.43%; FB1:  47.43  354
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             Gene: precision:  48.24%; recall:  74.44%; FB1:  58.54  483
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  17.59%; recall:  27.54%; FB1:  21.47  216
+           NegReg: precision:  74.44%; recall:  69.07%; FB1:  71.66  90
+          Pathway: precision:  25.00%; recall:  33.33%; FB1:  28.57  8
+           PosReg: precision:  64.81%; recall:  68.63%; FB1:  66.67  54
+          Protein: precision:   8.70%; recall:   5.00%; FB1:   6.35  23
+              Reg: precision:  60.34%; recall:  52.43%; FB1:  56.11  232
+              Var: precision:  45.85%; recall:  68.12%; FB1:  54.81  578
+processed 43128 tokens with 1610 phrases; found: 2062 phrases; correct: 918.
+accuracy:  62.68%; (non-O)
+accuracy:  95.06%; precision:  44.52%; recall:  57.02%; FB1:  50.00
+              CPA: precision:  13.58%; recall:  26.19%; FB1:  17.89  81
+          Disease: precision:  38.37%; recall:  39.76%; FB1:  39.05  258
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             Gene: precision:  50.44%; recall:  72.52%; FB1:  59.50  450
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  19.67%; recall:  34.06%; FB1:  24.93  239
+           NegReg: precision:  62.10%; recall:  79.38%; FB1:  69.68  124
+          Pathway: precision:  33.33%; recall:  16.67%; FB1:  22.22  3
+           PosReg: precision:  50.67%; recall:  74.51%; FB1:  60.32  75
+          Protein: precision:   7.06%; recall:  15.00%; FB1:   9.60  85
+              Reg: precision:  64.32%; recall:  54.68%; FB1:  59.11  227
+              Var: precision:  51.16%; recall:  67.87%; FB1:  58.34  516
+processed 43128 tokens with 1610 phrases; found: 1834 phrases; correct: 900.
+accuracy:  60.89%; (non-O)
+accuracy:  95.36%; precision:  49.07%; recall:  55.90%; FB1:  52.26
+              CPA: precision:  11.48%; recall:  16.67%; FB1:  13.59  61
+          Disease: precision:  41.90%; recall:  55.02%; FB1:  47.57  327
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+             Gene: precision:  63.49%; recall:  61.66%; FB1:  62.56  304
+      Interaction: precision:   0.00%; recall:   0.00%; FB1:   0.00  7
+              MPA: precision:  22.28%; recall:  32.61%; FB1:  26.47  202
+           NegReg: precision:  72.00%; recall:  74.23%; FB1:  73.10  100
+          Pathway: precision:  40.00%; recall:  33.33%; FB1:  36.36  5
+           PosReg: precision:  62.26%; recall:  64.71%; FB1:  63.46  53
+          Protein: precision:  13.04%; recall:  15.00%; FB1:  13.95  46
+              Reg: precision:  64.46%; recall:  58.43%; FB1:  61.30  242
+              Var: precision:  51.23%; recall:  64.01%; FB1:  56.91  486
+processed 43128 tokens with 1610 phrases; found: 1593 phrases; correct: 827.
+accuracy:  53.62%; (non-O)
+accuracy:  95.39%; precision:  51.91%; recall:  51.37%; FB1:  51.64
+              CPA: precision:  13.64%; recall:  21.43%; FB1:  16.67  66
+          Disease: precision:  42.81%; recall:  53.82%; FB1:  47.69  313
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+             Gene: precision:  62.65%; recall:  64.86%; FB1:  63.74  324
+      Interaction: precision:  40.00%; recall:  40.00%; FB1:  40.00  5
+              MPA: precision:  22.30%; recall:  23.91%; FB1:  23.08  148
+           NegReg: precision:  72.00%; recall:  74.23%; FB1:  73.10  100
+          Pathway: precision:  33.33%; recall:  16.67%; FB1:  22.22  3
+           PosReg: precision:  59.02%; recall:  70.59%; FB1:  64.29  61
+          Protein: precision:   8.57%; recall:   7.50%; FB1:   8.00  35
+              Reg: precision:  65.96%; recall:  46.44%; FB1:  54.51  188
+              Var: precision:  60.34%; recall:  53.98%; FB1:  56.99  348
+processed 43128 tokens with 1610 phrases; found: 1824 phrases; correct: 915.
+accuracy:  60.52%; (non-O)
+accuracy:  95.30%; precision:  50.16%; recall:  56.83%; FB1:  53.29
+              CPA: precision:  21.05%; recall:  19.05%; FB1:  20.00  38
+          Disease: precision:  44.33%; recall:  50.20%; FB1:  47.08  282
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+             Gene: precision:  59.13%; recall:  69.33%; FB1:  63.82  367
+      Interaction: precision:  20.00%; recall:  40.00%; FB1:  26.67  10
+              MPA: precision:  25.73%; recall:  31.88%; FB1:  28.48  171
+           NegReg: precision:  74.44%; recall:  69.07%; FB1:  71.66  90
+          Pathway: precision:  27.27%; recall:  50.00%; FB1:  35.29  11
+           PosReg: precision:  63.64%; recall:  68.63%; FB1:  66.04  55
+          Protein: precision:   7.69%; recall:   5.00%; FB1:   6.06  26
+              Reg: precision:  63.25%; recall:  55.43%; FB1:  59.08  234
+              Var: precision:  48.98%; recall:  67.87%; FB1:  56.90  539
+processed 43128 tokens with 1610 phrases; found: 1911 phrases; correct: 900.
+accuracy:  60.89%; (non-O)
+accuracy:  95.28%; precision:  47.10%; recall:  55.90%; FB1:  51.12
+              CPA: precision:  21.43%; recall:  14.29%; FB1:  17.14  28
+          Disease: precision:  39.11%; recall:  56.22%; FB1:  46.13  358
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  0
+             Gene: precision:  61.46%; recall:  56.55%; FB1:  58.90  288
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  20.07%; recall:  41.30%; FB1:  27.01  284
+           NegReg: precision:  58.77%; recall:  69.07%; FB1:  63.51  114
+          Pathway: precision:  33.33%; recall:  16.67%; FB1:  22.22  3
+           PosReg: precision:  56.25%; recall:  70.59%; FB1:  62.61  64
+          Protein: precision:  14.29%; recall:  17.50%; FB1:  15.73  49
+              Reg: precision:  59.14%; recall:  61.80%; FB1:  60.44  279
+              Var: precision:  55.63%; recall:  62.21%; FB1:  58.74  435
+processed 43128 tokens with 1610 phrases; found: 1914 phrases; correct: 922.
+accuracy:  62.38%; (non-O)
+accuracy:  95.50%; precision:  48.17%; recall:  57.27%; FB1:  52.33
+              CPA: precision:  16.18%; recall:  26.19%; FB1:  20.00  68
+          Disease: precision:  39.89%; recall:  57.83%; FB1:  47.21  361
+           Enzyme: precision:  21.43%; recall:  23.08%; FB1:  22.22  14
+             Gene: precision:  57.40%; recall:  70.61%; FB1:  63.32  385
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  23.81%; recall:  32.61%; FB1:  27.52  189
+           NegReg: precision:  65.38%; recall:  70.10%; FB1:  67.66  104
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  57.38%; recall:  68.63%; FB1:  62.50  61
+          Protein: precision:   8.16%; recall:  10.00%; FB1:   8.99  49
+              Reg: precision:  60.56%; recall:  48.31%; FB1:  53.75  213
+              Var: precision:  56.48%; recall:  66.07%; FB1:  60.90  455
+processed 43128 tokens with 1610 phrases; found: 1626 phrases; correct: 827.
+accuracy:  57.07%; (non-O)
+accuracy:  95.54%; precision:  50.86%; recall:  51.37%; FB1:  51.11
+              CPA: precision:  16.67%; recall:  21.43%; FB1:  18.75  54
+          Disease: precision:  45.97%; recall:  45.78%; FB1:  45.88  248
+           Enzyme: precision:  25.00%; recall:   7.69%; FB1:  11.76  4
+             Gene: precision:  59.18%; recall:  64.86%; FB1:  61.89  343
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  23.98%; recall:  34.06%; FB1:  28.14  196
+           NegReg: precision:  64.42%; recall:  69.07%; FB1:  66.67  104
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  53.97%; recall:  66.67%; FB1:  59.65  63
+          Protein: precision:  12.90%; recall:  10.00%; FB1:  11.27  31
+              Reg: precision:  72.55%; recall:  41.57%; FB1:  52.86  153
+              Var: precision:  55.64%; recall:  59.64%; FB1:  57.57  417
+processed 43128 tokens with 1610 phrases; found: 2048 phrases; correct: 903.
+accuracy:  60.89%; (non-O)
+accuracy:  95.18%; precision:  44.09%; recall:  56.09%; FB1:  49.37
+              CPA: precision:  14.29%; recall:  21.43%; FB1:  17.14  63
+          Disease: precision:  26.48%; recall:  48.59%; FB1:  34.28  457
+           Enzyme: precision:  33.33%; recall:  38.46%; FB1:  35.71  15
+             Gene: precision:  58.50%; recall:  67.09%; FB1:  62.50  359
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  24.19%; recall:  32.61%; FB1:  27.78  186
+           NegReg: precision:  59.68%; recall:  76.29%; FB1:  66.97  124
+          Pathway: precision:  33.33%; recall:  16.67%; FB1:  22.22  3
+           PosReg: precision:  44.30%; recall:  68.63%; FB1:  53.85  79
+          Protein: precision:   7.69%; recall:   5.00%; FB1:   6.06  26
+              Reg: precision:  64.38%; recall:  52.81%; FB1:  58.02  219
+              Var: precision:  50.69%; recall:  66.32%; FB1:  57.46  509
+processed 43128 tokens with 1610 phrases; found: 1953 phrases; correct: 956.
+accuracy:  63.94%; (non-O)
+accuracy:  95.40%; precision:  48.95%; recall:  59.38%; FB1:  53.66
+              CPA: precision:  15.09%; recall:  19.05%; FB1:  16.84  53
+          Disease: precision:  49.32%; recall:  57.83%; FB1:  53.23  292
+           Enzyme: precision:  27.27%; recall:  46.15%; FB1:  34.29  22
+             Gene: precision:  52.94%; recall:  71.88%; FB1:  60.98  425
+      Interaction: precision:  20.00%; recall:  40.00%; FB1:  26.67  10
+              MPA: precision:  23.15%; recall:  36.23%; FB1:  28.25  216
+           NegReg: precision:  64.04%; recall:  75.26%; FB1:  69.19  114
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  63.46%; recall:  64.71%; FB1:  64.08  52
+          Protein: precision:   9.09%; recall:  10.00%; FB1:   9.52  44
+              Reg: precision:  60.15%; recall:  58.80%; FB1:  59.47  261
+              Var: precision:  54.68%; recall:  64.52%; FB1:  59.20  459
+processed 43128 tokens with 1610 phrases; found: 1960 phrases; correct: 930.
+accuracy:  62.32%; (non-O)
+accuracy:  95.20%; precision:  47.45%; recall:  57.76%; FB1:  52.10
+              CPA: precision:  17.02%; recall:  19.05%; FB1:  17.98  47
+          Disease: precision:  41.55%; recall:  58.23%; FB1:  48.49  349
+           Enzyme: precision:  16.67%; recall:   7.69%; FB1:  10.53  6
+             Gene: precision:  54.59%; recall:  74.12%; FB1:  62.87  425
+      Interaction: precision:  20.00%; recall:  40.00%; FB1:  26.67  10
+              MPA: precision:  24.29%; recall:  36.96%; FB1:  29.31  210
+           NegReg: precision:  69.52%; recall:  75.26%; FB1:  72.28  105
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  49.25%; recall:  64.71%; FB1:  55.93  67
+          Protein: precision:   9.52%; recall:  10.00%; FB1:   9.76  42
+              Reg: precision:  61.66%; recall:  44.57%; FB1:  51.74  193
+              Var: precision:  51.70%; recall:  66.58%; FB1:  58.20  501
+processed 43128 tokens with 1610 phrases; found: 1921 phrases; correct: 906.
+accuracy:  61.22%; (non-O)
+accuracy:  95.20%; precision:  47.16%; recall:  56.27%; FB1:  51.32
+              CPA: precision:  15.56%; recall:  16.67%; FB1:  16.09  45
+          Disease: precision:  42.90%; recall:  59.44%; FB1:  49.83  345
+           Enzyme: precision:  33.33%; recall:   7.69%; FB1:  12.50  3
+             Gene: precision:  58.74%; recall:  68.69%; FB1:  63.33  366
+      Interaction: precision:  18.18%; recall:  40.00%; FB1:  25.00  11
+              MPA: precision:  19.25%; recall:  33.33%; FB1:  24.40  239
+           NegReg: precision:  67.62%; recall:  73.20%; FB1:  70.30  105
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  44.87%; recall:  68.63%; FB1:  54.26  78
+          Protein: precision:   9.62%; recall:  12.50%; FB1:  10.87  52
+              Reg: precision:  59.71%; recall:  46.07%; FB1:  52.01  206
+              Var: precision:  53.65%; recall:  64.27%; FB1:  58.48  466
+processed 43128 tokens with 1610 phrases; found: 1590 phrases; correct: 817.
+accuracy:  55.01%; (non-O)
+accuracy:  95.50%; precision:  51.38%; recall:  50.75%; FB1:  51.06
+              CPA: precision:  23.33%; recall:  16.67%; FB1:  19.44  30
+          Disease: precision:  44.27%; recall:  46.59%; FB1:  45.40  262
+           Enzyme: precision:  41.67%; recall:  38.46%; FB1:  40.00  12
+             Gene: precision:  62.42%; recall:  61.02%; FB1:  61.71  306
+      Interaction: precision:  25.00%; recall:  60.00%; FB1:  35.29  12
+              MPA: precision:  22.11%; recall:  31.88%; FB1:  26.11  199
+           NegReg: precision:  66.67%; recall:  65.98%; FB1:  66.32  96
+          Pathway: precision:  40.00%; recall:  33.33%; FB1:  36.36  5
+           PosReg: precision:  63.04%; recall:  56.86%; FB1:  59.79  46
+          Protein: precision:  15.00%; recall:  15.00%; FB1:  15.00  40
+              Reg: precision:  65.61%; recall:  46.44%; FB1:  54.39  189
+              Var: precision:  57.51%; recall:  58.10%; FB1:  57.80  393
+processed 43128 tokens with 1610 phrases; found: 1943 phrases; correct: 921.
+accuracy:  63.05%; (non-O)
+accuracy:  95.38%; precision:  47.40%; recall:  57.20%; FB1:  51.84
+              CPA: precision:  17.65%; recall:  14.29%; FB1:  15.79  34
+          Disease: precision:  38.72%; recall:  55.82%; FB1:  45.72  359
+           Enzyme: precision:  40.00%; recall:  15.38%; FB1:  22.22  5
+             Gene: precision:  64.76%; recall:  65.18%; FB1:  64.97  315
+      Interaction: precision:  40.00%; recall:  40.00%; FB1:  40.00  5
+              MPA: precision:  21.48%; recall:  39.86%; FB1:  27.92  256
+           NegReg: precision:  64.29%; recall:  74.23%; FB1:  68.90  112
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  38.89%; recall:  68.63%; FB1:  49.65  90
+          Protein: precision:   7.32%; recall:   7.50%; FB1:   7.41  41
+              Reg: precision:  59.15%; recall:  52.06%; FB1:  55.38  235
+              Var: precision:  53.81%; recall:  67.10%; FB1:  59.73  485
+processed 43128 tokens with 1610 phrases; found: 1753 phrases; correct: 894.
+accuracy:  60.76%; (non-O)
+accuracy:  95.52%; precision:  51.00%; recall:  55.53%; FB1:  53.17
+              CPA: precision:  23.53%; recall:  19.05%; FB1:  21.05  34
+          Disease: precision:  42.14%; recall:  53.82%; FB1:  47.27  318
+           Enzyme: precision:  50.00%; recall:  30.77%; FB1:  38.10  8
+             Gene: precision:  62.88%; recall:  60.06%; FB1:  61.44  299
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  27.08%; recall:  37.68%; FB1:  31.52  192
+           NegReg: precision:  67.68%; recall:  69.07%; FB1:  68.37  99
+          Pathway: precision:  25.00%; recall:  50.00%; FB1:  33.33  12
+           PosReg: precision:  60.00%; recall:  64.71%; FB1:  62.26  55
+          Protein: precision:   8.70%; recall:   5.00%; FB1:   6.35  23
+              Reg: precision:  61.67%; recall:  55.43%; FB1:  58.38  240
+              Var: precision:  54.29%; recall:  65.04%; FB1:  59.18  466
+processed 43128 tokens with 1610 phrases; found: 1757 phrases; correct: 819.
+accuracy:  58.63%; (non-O)
+accuracy:  95.06%; precision:  46.61%; recall:  50.87%; FB1:  48.65
+              CPA: precision:  22.58%; recall:  16.67%; FB1:  19.18  31
+          Disease: precision:  36.53%; recall:  55.02%; FB1:  43.91  375
+           Enzyme: precision:  40.00%; recall:  15.38%; FB1:  22.22  5
+             Gene: precision:  63.00%; recall:  60.38%; FB1:  61.66  300
+      Interaction: precision:  40.00%; recall:  40.00%; FB1:  40.00  5
+              MPA: precision:  23.47%; recall:  33.33%; FB1:  27.54  196
+           NegReg: precision:  68.04%; recall:  68.04%; FB1:  68.04  97
+          Pathway: precision:  20.00%; recall:  16.67%; FB1:  18.18  5
+           PosReg: precision:  47.89%; recall:  66.67%; FB1:  55.74  71
+          Protein: precision:   4.35%; recall:   2.50%; FB1:   3.17  23
+              Reg: precision:  58.51%; recall:  41.20%; FB1:  48.35  188
+              Var: precision:  48.59%; recall:  57.58%; FB1:  52.71  461
+processed 43128 tokens with 1610 phrases; found: 1850 phrases; correct: 900.
+accuracy:  60.36%; (non-O)
+accuracy:  95.29%; precision:  48.65%; recall:  55.90%; FB1:  52.02
+              CPA: precision:  10.77%; recall:  16.67%; FB1:  13.08  65
+          Disease: precision:  43.69%; recall:  57.03%; FB1:  49.48  325
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  2
+             Gene: precision:  60.98%; recall:  63.90%; FB1:  62.40  328
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  25.28%; recall:  32.61%; FB1:  28.48  178
+           NegReg: precision:  69.16%; recall:  76.29%; FB1:  72.55  107
+          Pathway: precision:  28.57%; recall:  33.33%; FB1:  30.77  7
+           PosReg: precision:  51.52%; recall:  66.67%; FB1:  58.12  66
+          Protein: precision:  14.49%; recall:  25.00%; FB1:  18.35  69
+              Reg: precision:  67.66%; recall:  50.94%; FB1:  58.12  201
+              Var: precision:  50.30%; recall:  63.75%; FB1:  56.24  493
+processed 43128 tokens with 1610 phrases; found: 1512 phrases; correct: 837.
+accuracy:  56.18%; (non-O)
+accuracy:  95.76%; precision:  55.36%; recall:  51.99%; FB1:  53.62
+              CPA: precision:  19.44%; recall:  16.67%; FB1:  17.95  36
+          Disease: precision:  46.83%; recall:  53.41%; FB1:  49.91  284
+           Enzyme: precision:  14.58%; recall:  53.85%; FB1:  22.95  48
+             Gene: precision:  67.79%; recall:  64.54%; FB1:  66.12  298
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  29.46%; recall:  27.54%; FB1:  28.46  129
+           NegReg: precision:  73.81%; recall:  63.92%; FB1:  68.51  84
+          Pathway: precision:  28.57%; recall:  33.33%; FB1:  30.77  7
+           PosReg: precision:  75.61%; recall:  60.78%; FB1:  67.39  41
+          Protein: precision:  11.54%; recall:   7.50%; FB1:   9.09  26
+              Reg: precision:  73.68%; recall:  47.19%; FB1:  57.53  171
+              Var: precision:  58.33%; recall:  57.58%; FB1:  57.96  384
+processed 43128 tokens with 1610 phrases; found: 1965 phrases; correct: 936.
+accuracy:  63.98%; (non-O)
+accuracy:  95.35%; precision:  47.63%; recall:  58.14%; FB1:  52.36
+              CPA: precision:  13.85%; recall:  21.43%; FB1:  16.82  65
+          Disease: precision:  38.34%; recall:  59.44%; FB1:  46.61  386
+           Enzyme: precision:  22.22%; recall:  15.38%; FB1:  18.18  9
+             Gene: precision:  60.50%; recall:  69.97%; FB1:  64.89  362
+      Interaction: precision:   8.33%; recall:  20.00%; FB1:  11.76  12
+              MPA: precision:  25.26%; recall:  34.78%; FB1:  29.27  190
+           NegReg: precision:  64.81%; recall:  72.16%; FB1:  68.29  108
+          Pathway: precision:  50.00%; recall:  33.33%; FB1:  40.00  4
+           PosReg: precision:  56.67%; recall:  66.67%; FB1:  61.26  60
+          Protein: precision:  13.33%; recall:  15.00%; FB1:  14.12  45
+              Reg: precision:  65.37%; recall:  50.19%; FB1:  56.78  205
+              Var: precision:  50.67%; recall:  67.61%; FB1:  57.93  519
+processed 43128 tokens with 1610 phrases; found: 1782 phrases; correct: 849.
+accuracy:  61.09%; (non-O)
+accuracy:  95.53%; precision:  47.64%; recall:  52.73%; FB1:  50.06
+              CPA: precision:  14.58%; recall:  16.67%; FB1:  15.56  48
+          Disease: precision:  43.94%; recall:  58.23%; FB1:  50.09  330
+           Enzyme: precision:  50.00%; recall:  23.08%; FB1:  31.58  6
+             Gene: precision:  59.32%; recall:  61.02%; FB1:  60.16  322
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  26.52%; recall:  34.78%; FB1:  30.09  181
+           NegReg: precision:  68.63%; recall:  72.16%; FB1:  70.35  102
+          Pathway: precision:  50.00%; recall:  33.33%; FB1:  40.00  4
+           PosReg: precision:  45.68%; recall:  72.55%; FB1:  56.06  81
+          Protein: precision:  13.95%; recall:  15.00%; FB1:  14.46  43
+              Reg: precision:  45.50%; recall:  35.96%; FB1:  40.17  211
+              Var: precision:  54.38%; recall:  62.21%; FB1:  58.03  445
+processed 43128 tokens with 1610 phrases; found: 1555 phrases; correct: 836.
+accuracy:  56.41%; (non-O)
+accuracy:  95.69%; precision:  53.76%; recall:  51.93%; FB1:  52.83
+              CPA: precision:  21.43%; recall:  21.43%; FB1:  21.43  42
+          Disease: precision:  47.62%; recall:  52.21%; FB1:  49.81  273
+           Enzyme: precision:  50.00%; recall:  15.38%; FB1:  23.53  4
+             Gene: precision:  66.21%; recall:  61.98%; FB1:  64.03  293
+      Interaction: precision: 100.00%; recall:  40.00%; FB1:  57.14  2
+              MPA: precision:  24.72%; recall:  31.88%; FB1:  27.85  178
+           NegReg: precision:  81.82%; recall:  64.95%; FB1:  72.41  77
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  58.49%; recall:  60.78%; FB1:  59.62  53
+          Protein: precision:   6.67%; recall:   5.00%; FB1:   5.71  30
+              Reg: precision:  67.71%; recall:  48.69%; FB1:  56.64  192
+              Var: precision:  55.64%; recall:  58.35%; FB1:  56.96  408
+processed 43128 tokens with 1610 phrases; found: 1747 phrases; correct: 885.
+accuracy:  62.42%; (non-O)
+accuracy:  95.65%; precision:  50.66%; recall:  54.97%; FB1:  52.73
+              CPA: precision:  17.95%; recall:  16.67%; FB1:  17.28  39
+          Disease: precision:  46.41%; recall:  57.03%; FB1:  51.17  306
+           Enzyme: precision:  22.22%; recall:  15.38%; FB1:  18.18  9
+             Gene: precision:  62.87%; recall:  61.66%; FB1:  62.26  307
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  20.17%; recall:  34.06%; FB1:  25.34  233
+           NegReg: precision:  73.33%; recall:  68.04%; FB1:  70.59  90
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  62.96%; recall:  66.67%; FB1:  64.76  54
+          Protein: precision:  10.87%; recall:  12.50%; FB1:  11.63  46
+              Reg: precision:  69.40%; recall:  47.57%; FB1:  56.44  183
+              Var: precision:  55.03%; recall:  66.07%; FB1:  60.05  467
+processed 43128 tokens with 1610 phrases; found: 1775 phrases; correct: 903.
+accuracy:  61.65%; (non-O)
+accuracy:  95.61%; precision:  50.87%; recall:  56.09%; FB1:  53.35
+              CPA: precision:  17.14%; recall:  14.29%; FB1:  15.58  35
+          Disease: precision:  40.81%; recall:  60.64%; FB1:  48.79  370
+           Enzyme: precision:  20.00%; recall:   7.69%; FB1:  11.11  5
+             Gene: precision:  62.00%; recall:  69.33%; FB1:  65.46  350
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  25.83%; recall:  28.26%; FB1:  26.99  151
+           NegReg: precision:  74.16%; recall:  68.04%; FB1:  70.97  89
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  59.65%; recall:  66.67%; FB1:  62.96  57
+          Protein: precision:   3.12%; recall:   2.50%; FB1:   2.78  32
+              Reg: precision:  66.51%; recall:  52.06%; FB1:  58.40  209
+              Var: precision:  52.59%; recall:  62.72%; FB1:  57.21  464
+processed 43128 tokens with 1610 phrases; found: 1547 phrases; correct: 800.
+accuracy:  55.81%; (non-O)
+accuracy:  95.51%; precision:  51.71%; recall:  49.69%; FB1:  50.68
+              CPA: precision:   9.68%; recall:  14.29%; FB1:  11.54  62
+          Disease: precision:  52.05%; recall:  51.00%; FB1:  51.52  244
+           Enzyme: precision:  11.11%; recall:   7.69%; FB1:   9.09  9
+             Gene: precision:  60.65%; recall:  60.06%; FB1:  60.35  310
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  22.56%; recall:  31.88%; FB1:  26.43  195
+           NegReg: precision:  67.96%; recall:  72.16%; FB1:  70.00  103
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  55.93%; recall:  64.71%; FB1:  60.00  59
+          Protein: precision:   7.14%; recall:   5.00%; FB1:   5.88  28
+              Reg: precision:  74.47%; recall:  39.33%; FB1:  51.47  141
+              Var: precision:  57.18%; recall:  56.30%; FB1:  56.74  383
+processed 43128 tokens with 1610 phrases; found: 1806 phrases; correct: 879.
+accuracy:  59.03%; (non-O)
+accuracy:  95.28%; precision:  48.67%; recall:  54.60%; FB1:  51.46
+              CPA: precision:  12.24%; recall:  14.29%; FB1:  13.19  49
+          Disease: precision:  35.69%; recall:  52.61%; FB1:  42.53  367
+           Enzyme: precision:  50.00%; recall:  23.08%; FB1:  31.58  6
+             Gene: precision:  65.68%; recall:  63.58%; FB1:  64.61  303
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  24.57%; recall:  31.16%; FB1:  27.48  175
+           NegReg: precision:  78.82%; recall:  69.07%; FB1:  73.63  85
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  55.00%; recall:  64.71%; FB1:  59.46  60
+          Protein: precision:   6.98%; recall:   7.50%; FB1:   7.23  43
+              Reg: precision:  65.68%; recall:  58.05%; FB1:  61.63  236
+              Var: precision:  50.00%; recall:  60.41%; FB1:  54.71  470
+processed 43128 tokens with 1610 phrases; found: 1954 phrases; correct: 950.
+accuracy:  65.04%; (non-O)
+accuracy:  95.50%; precision:  48.62%; recall:  59.01%; FB1:  53.31
+              CPA: precision:  15.00%; recall:  14.29%; FB1:  14.63  40
+          Disease: precision:  45.40%; recall:  61.45%; FB1:  52.22  337
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+             Gene: precision:  58.45%; recall:  67.41%; FB1:  62.61  361
+      Interaction: precision:  12.50%; recall:  20.00%; FB1:  15.38  8
+              MPA: precision:  20.87%; recall:  34.78%; FB1:  26.09  230
+           NegReg: precision:  69.47%; recall:  68.04%; FB1:  68.75  95
+          Pathway: precision:  18.75%; recall:  50.00%; FB1:  27.27  16
+           PosReg: precision:  37.76%; recall:  72.55%; FB1:  49.66  98
+          Protein: precision:   8.33%; recall:   5.00%; FB1:   6.25  24
+              Reg: precision:  59.22%; recall:  62.55%; FB1:  60.84  282
+              Var: precision:  55.77%; recall:  65.81%; FB1:  60.38  459
+processed 43128 tokens with 1610 phrases; found: 1834 phrases; correct: 899.
+accuracy:  62.25%; (non-O)
+accuracy:  95.25%; precision:  49.02%; recall:  55.84%; FB1:  52.21
+              CPA: precision:  10.84%; recall:  21.43%; FB1:  14.40  83
+          Disease: precision:  45.10%; recall:  61.04%; FB1:  51.88  337
+           Enzyme: precision:  25.00%; recall:  23.08%; FB1:  24.00  12
+             Gene: precision:  61.54%; recall:  63.90%; FB1:  62.70  325
+      Interaction: precision:   7.69%; recall:  20.00%; FB1:  11.11  13
+              MPA: precision:  22.63%; recall:  31.16%; FB1:  26.22  190
+           NegReg: precision:  52.38%; recall:  79.38%; FB1:  63.11  147
+          Pathway: precision:  30.00%; recall:  50.00%; FB1:  37.50  10
+           PosReg: precision:  59.62%; recall:  60.78%; FB1:  60.19  52
+          Protein: precision:   3.57%; recall:   2.50%; FB1:   2.94  28
+              Reg: precision:  65.20%; recall:  49.81%; FB1:  56.48  204
+              Var: precision:  56.81%; recall:  63.24%; FB1:  59.85  433
+processed 43128 tokens with 1610 phrases; found: 1772 phrases; correct: 938.
+accuracy:  62.25%; (non-O)
+accuracy:  95.63%; precision:  52.93%; recall:  58.26%; FB1:  55.47
+              CPA: precision:  16.67%; recall:  19.05%; FB1:  17.78  48
+          Disease: precision:  48.84%; recall:  59.04%; FB1:  53.45  301
+           Enzyme: precision:  21.43%; recall:  23.08%; FB1:  22.22  14
+             Gene: precision:  64.53%; recall:  67.41%; FB1:  65.94  327
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  26.40%; recall:  34.06%; FB1:  29.75  178
+           NegReg: precision:  69.79%; recall:  69.07%; FB1:  69.43  96
+          Pathway: precision: 100.00%; recall:  50.00%; FB1:  66.67  3
+           PosReg: precision:  53.73%; recall:  70.59%; FB1:  61.02  67
+          Protein: precision:   6.25%; recall:   5.00%; FB1:   5.56  32
+              Reg: precision:  71.57%; recall:  54.68%; FB1:  62.00  204
+              Var: precision:  53.85%; recall:  68.38%; FB1:  60.25  494
+processed 43128 tokens with 1610 phrases; found: 1880 phrases; correct: 954.
+accuracy:  63.51%; (non-O)
+accuracy:  95.54%; precision:  50.74%; recall:  59.25%; FB1:  54.67
+              CPA: precision:  19.05%; recall:  19.05%; FB1:  19.05  42
+          Disease: precision:  44.77%; recall:  61.85%; FB1:  51.94  344
+           Enzyme: precision:  25.00%; recall:  46.15%; FB1:  32.43  24
+             Gene: precision:  52.04%; recall:  77.32%; FB1:  62.21  465
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  24.69%; recall:  28.99%; FB1:  26.67  162
+           NegReg: precision:  69.90%; recall:  74.23%; FB1:  72.00  103
+          Pathway: precision: 100.00%; recall:  50.00%; FB1:  66.67  3
+           PosReg: precision:  59.32%; recall:  68.63%; FB1:  63.64  59
+          Protein: precision:   6.90%; recall:   5.00%; FB1:   5.80  29
+              Reg: precision:  69.50%; recall:  52.06%; FB1:  59.53  200
+              Var: precision:  56.92%; recall:  64.52%; FB1:  60.48  441
+processed 43128 tokens with 1610 phrases; found: 1676 phrases; correct: 904.
+accuracy:  60.46%; (non-O)
+accuracy:  95.72%; precision:  53.94%; recall:  56.15%; FB1:  55.02
+              CPA: precision:  16.00%; recall:  19.05%; FB1:  17.39  50
+          Disease: precision:  47.96%; recall:  51.81%; FB1:  49.81  269
+           Enzyme: precision:  31.25%; recall:  38.46%; FB1:  34.48  16
+             Gene: precision:  64.04%; recall:  64.86%; FB1:  64.44  317
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  31.18%; recall:  38.41%; FB1:  34.42  170
+           NegReg: precision:  72.04%; recall:  69.07%; FB1:  70.53  93
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  57.81%; recall:  72.55%; FB1:  64.35  64
+          Protein: precision:   4.00%; recall:   2.50%; FB1:   3.08  25
+              Reg: precision:  67.59%; recall:  54.68%; FB1:  60.46  216
+              Var: precision:  56.31%; recall:  64.27%; FB1:  60.02  444
+processed 43128 tokens with 1610 phrases; found: 1694 phrases; correct: 889.
+accuracy:  60.16%; (non-O)
+accuracy:  95.62%; precision:  52.48%; recall:  55.22%; FB1:  53.81
+              CPA: precision:  10.81%; recall:  19.05%; FB1:  13.79  74
+          Disease: precision:  48.28%; recall:  56.22%; FB1:  51.95  290
+           Enzyme: precision:  44.44%; recall:  30.77%; FB1:  36.36  9
+             Gene: precision:  64.67%; recall:  65.50%; FB1:  65.08  317
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  29.33%; recall:  31.88%; FB1:  30.56  150
+           NegReg: precision:  68.82%; recall:  65.98%; FB1:  67.37  93
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  56.45%; recall:  68.63%; FB1:  61.95  62
+          Protein: precision:   7.89%; recall:   7.50%; FB1:   7.69  38
+              Reg: precision:  69.84%; recall:  49.44%; FB1:  57.89  189
+              Var: precision:  54.49%; recall:  64.01%; FB1:  58.87  457
+processed 43128 tokens with 1610 phrases; found: 1840 phrases; correct: 932.
+accuracy:  61.55%; (non-O)
+accuracy:  95.48%; precision:  50.65%; recall:  57.89%; FB1:  54.03
+              CPA: precision:  18.18%; recall:  23.81%; FB1:  20.62  55
+          Disease: precision:  47.18%; recall:  57.03%; FB1:  51.64  301
+           Enzyme: precision:  33.33%; recall:  23.08%; FB1:  27.27  9
+             Gene: precision:  62.61%; recall:  67.41%; FB1:  64.92  337
+      Interaction: precision:  20.00%; recall:  40.00%; FB1:  26.67  10
+              MPA: precision:  27.17%; recall:  34.06%; FB1:  30.23  173
+           NegReg: precision:  70.10%; recall:  70.10%; FB1:  70.10  97
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  60.34%; recall:  68.63%; FB1:  64.22  58
+          Protein: precision:   5.26%; recall:   5.00%; FB1:   5.13  38
+              Reg: precision:  62.98%; recall:  55.43%; FB1:  58.96  235
+              Var: precision:  49.90%; recall:  67.10%; FB1:  57.24  523
+processed 43128 tokens with 1610 phrases; found: 1813 phrases; correct: 921.
+accuracy:  61.12%; (non-O)
+accuracy:  95.49%; precision:  50.80%; recall:  57.20%; FB1:  53.81
+              CPA: precision:  17.07%; recall:  16.67%; FB1:  16.87  41
+          Disease: precision:  48.08%; recall:  55.42%; FB1:  51.49  287
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  7
+             Gene: precision:  63.17%; recall:  71.25%; FB1:  66.97  353
+      Interaction: precision:  33.33%; recall:  40.00%; FB1:  36.36  6
+              MPA: precision:  24.87%; recall:  34.06%; FB1:  28.75  189
+           NegReg: precision:  68.93%; recall:  73.20%; FB1:  71.00  103
+          Pathway: precision:  33.33%; recall:  33.33%; FB1:  33.33  6
+           PosReg: precision:  50.00%; recall:  70.59%; FB1:  58.54  72
+          Protein: precision:   4.76%; recall:   2.50%; FB1:   3.28  21
+              Reg: precision:  65.18%; recall:  54.68%; FB1:  59.47  224
+              Var: precision:  49.21%; recall:  63.75%; FB1:  55.54  504
+processed 43128 tokens with 1610 phrases; found: 1842 phrases; correct: 922.
+accuracy:  62.15%; (non-O)
+accuracy:  95.42%; precision:  50.05%; recall:  57.27%; FB1:  53.42
+              CPA: precision:  10.71%; recall:  21.43%; FB1:  14.29  84
+          Disease: precision:  47.52%; recall:  61.45%; FB1:  53.59  322
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  5
+             Gene: precision:  65.37%; recall:  69.97%; FB1:  67.59  335
+      Interaction: precision:  33.33%; recall:  40.00%; FB1:  36.36  6
+              MPA: precision:  21.11%; recall:  30.43%; FB1:  24.93  199
+           NegReg: precision:  66.34%; recall:  69.07%; FB1:  67.68  101
+          Pathway: precision:  20.00%; recall:  16.67%; FB1:  18.18  5
+           PosReg: precision:  46.25%; recall:  72.55%; FB1:  56.49  80
+          Protein: precision:   7.32%; recall:   7.50%; FB1:   7.41  41
+              Reg: precision:  67.14%; recall:  52.81%; FB1:  59.12  210
+              Var: precision:  54.63%; recall:  63.75%; FB1:  58.84  454
+processed 43128 tokens with 1610 phrases; found: 1628 phrases; correct: 836.
+accuracy:  57.20%; (non-O)
+accuracy:  95.58%; precision:  51.35%; recall:  51.93%; FB1:  51.64
+              CPA: precision:  14.94%; recall:  30.95%; FB1:  20.16  87
+          Disease: precision:  46.18%; recall:  53.41%; FB1:  49.53  288
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  4
+             Gene: precision:  72.51%; recall:  58.15%; FB1:  64.54  251
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  19.44%; recall:  25.36%; FB1:  22.01  180
+           NegReg: precision:  63.79%; recall:  76.29%; FB1:  69.48  116
+          Pathway: precision:  37.50%; recall:  50.00%; FB1:  42.86  8
+           PosReg: precision:  67.39%; recall:  60.78%; FB1:  63.92  46
+          Protein: precision:   0.00%; recall:   0.00%; FB1:   0.00  15
+              Reg: precision:  67.35%; recall:  49.44%; FB1:  57.02  196
+              Var: precision:  53.85%; recall:  59.38%; FB1:  56.48  429
+processed 43128 tokens with 1610 phrases; found: 1624 phrases; correct: 852.
+accuracy:  58.37%; (non-O)
+accuracy:  95.54%; precision:  52.46%; recall:  52.92%; FB1:  52.69
+              CPA: precision:  12.33%; recall:  21.43%; FB1:  15.65  73
+          Disease: precision:  46.75%; recall:  57.83%; FB1:  51.71  308
+           Enzyme: precision:   9.09%; recall:   7.69%; FB1:   8.33  11
+             Gene: precision:  70.97%; recall:  56.23%; FB1:  62.75  248
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  22.70%; recall:  26.81%; FB1:  24.58  163
+           NegReg: precision:  68.27%; recall:  73.20%; FB1:  70.65  104
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  69.39%; recall:  66.67%; FB1:  68.00  49
+          Protein: precision:  10.81%; recall:  10.00%; FB1:  10.39  37
+              Reg: precision:  70.15%; recall:  52.81%; FB1:  60.26  201
+              Var: precision:  55.16%; recall:  59.13%; FB1:  57.07  417
+processed 43128 tokens with 1610 phrases; found: 1757 phrases; correct: 898.
+accuracy:  60.99%; (non-O)
+accuracy:  95.52%; precision:  51.11%; recall:  55.78%; FB1:  53.34
+              CPA: precision:   8.43%; recall:  16.67%; FB1:  11.20  83
+          Disease: precision:  43.55%; recall:  61.04%; FB1:  50.84  349
+           Enzyme: precision:  33.33%; recall:  30.77%; FB1:  32.00  12
+             Gene: precision:  65.04%; recall:  72.52%; FB1:  68.58  349
+      Interaction: precision:  40.00%; recall:  40.00%; FB1:  40.00  5
+              MPA: precision:  22.82%; recall:  24.64%; FB1:  23.69  149
+           NegReg: precision:  75.58%; recall:  67.01%; FB1:  71.04  86
+          Pathway: precision:  22.22%; recall:  33.33%; FB1:  26.67  9
+           PosReg: precision:  63.27%; recall:  60.78%; FB1:  62.00  49
+          Protein: precision:   8.82%; recall:   7.50%; FB1:   8.11  34
+              Reg: precision:  64.80%; recall:  47.57%; FB1:  54.86  196
+              Var: precision:  55.96%; recall:  62.72%; FB1:  59.15  436
+processed 43128 tokens with 1610 phrases; found: 1781 phrases; correct: 889.
+accuracy:  61.52%; (non-O)
+accuracy:  95.43%; precision:  49.92%; recall:  55.22%; FB1:  52.43
+              CPA: precision:  14.89%; recall:  16.67%; FB1:  15.73  47
+          Disease: precision:  42.82%; recall:  63.45%; FB1:  51.13  369
+           Enzyme: precision:  33.33%; recall:  15.38%; FB1:  21.05  6
+             Gene: precision:  70.11%; recall:  58.47%; FB1:  63.76  261
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  21.11%; recall:  30.43%; FB1:  24.93  199
+           NegReg: precision:  78.31%; recall:  67.01%; FB1:  72.22  83
+          Pathway: precision:  50.00%; recall:  33.33%; FB1:  40.00  4
+           PosReg: precision:  57.38%; recall:  68.63%; FB1:  62.50  61
+          Protein: precision:  12.90%; recall:  10.00%; FB1:  11.27  31
+              Reg: precision:  69.19%; recall:  51.31%; FB1:  58.92  198
+              Var: precision:  49.12%; recall:  64.78%; FB1:  55.88  513
+processed 43128 tokens with 1610 phrases; found: 1849 phrases; correct: 915.
+accuracy:  62.48%; (non-O)
+accuracy:  95.47%; precision:  49.49%; recall:  56.83%; FB1:  52.91
+              CPA: precision:   9.80%; recall:  11.90%; FB1:  10.75  51
+          Disease: precision:  43.75%; recall:  56.22%; FB1:  49.21  320
+           Enzyme: precision:  25.00%; recall:  15.38%; FB1:  19.05  8
+             Gene: precision:  60.87%; recall:  71.57%; FB1:  65.79  368
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  21.37%; recall:  36.23%; FB1:  26.88  234
+           NegReg: precision:  64.76%; recall:  70.10%; FB1:  67.33  105
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  68.09%; recall:  62.75%; FB1:  65.31  47
+          Protein: precision:  11.11%; recall:   7.50%; FB1:   8.96  27
+              Reg: precision:  64.35%; recall:  52.06%; FB1:  57.56  216
+              Var: precision:  53.22%; recall:  63.75%; FB1:  58.01  466
+processed 43128 tokens with 1610 phrases; found: 1557 phrases; correct: 733.
+accuracy:  49.67%; (non-O)
+accuracy:  94.76%; precision:  47.08%; recall:  45.53%; FB1:  46.29
+              CPA: precision:   5.17%; recall:  14.29%; FB1:   7.59  116
+          Disease: precision:  37.93%; recall:  48.59%; FB1:  42.61  319
+           Enzyme: precision:  25.00%; recall:   7.69%; FB1:  11.76  4
+             Gene: precision:  64.49%; recall:  56.87%; FB1:  60.44  276
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  19.29%; recall:  27.54%; FB1:  22.69  197
+           NegReg: precision:  77.14%; recall:  55.67%; FB1:  64.67  70
+          Pathway: precision:  25.00%; recall:  16.67%; FB1:  20.00  4
+           PosReg: precision:  54.35%; recall:  49.02%; FB1:  51.55  46
+          Protein: precision:   6.67%; recall:   5.00%; FB1:   5.71  30
+              Reg: precision:  71.43%; recall:  41.20%; FB1:  52.26  154
+              Var: precision:  57.86%; recall:  50.13%; FB1:  53.72  337
+processed 43128 tokens with 1610 phrases; found: 1608 phrases; correct: 810.
+accuracy:  55.31%; (non-O)
+accuracy:  95.31%; precision:  50.37%; recall:  50.31%; FB1:  50.34
+              CPA: precision:  13.79%; recall:  19.05%; FB1:  16.00  58
+          Disease: precision:  40.69%; recall:  57.03%; FB1:  47.49  349
+           Enzyme: precision:  40.00%; recall:  30.77%; FB1:  34.78  10
+             Gene: precision:  63.67%; recall:  56.55%; FB1:  59.90  278
+      Interaction: precision:  33.33%; recall:  20.00%; FB1:  25.00  3
+              MPA: precision:  23.02%; recall:  21.01%; FB1:  21.97  126
+           NegReg: precision:  70.73%; recall:  59.79%; FB1:  64.80  82
+          Pathway: precision:  25.00%; recall:  16.67%; FB1:  20.00  4
+           PosReg: precision:  62.22%; recall:  54.90%; FB1:  58.33  45
+          Protein: precision:  11.11%; recall:   7.50%; FB1:   8.96  27
+              Reg: precision:  71.43%; recall:  46.82%; FB1:  56.56  175
+              Var: precision:  51.88%; recall:  60.15%; FB1:  55.71  451
+processed 43128 tokens with 1610 phrases; found: 1896 phrases; correct: 907.
+accuracy:  61.99%; (non-O)
+accuracy:  95.08%; precision:  47.84%; recall:  56.34%; FB1:  51.74
+              CPA: precision:  12.50%; recall:  19.05%; FB1:  15.09  64
+          Disease: precision:  41.71%; recall:  60.64%; FB1:  49.43  362
+           Enzyme: precision:  33.33%; recall:  23.08%; FB1:  27.27  9
+             Gene: precision:  62.96%; recall:  59.74%; FB1:  61.31  297
+      Interaction: precision:  20.00%; recall:  20.00%; FB1:  20.00  5
+              MPA: precision:  22.99%; recall:  31.16%; FB1:  26.46  187
+           NegReg: precision:  64.86%; recall:  74.23%; FB1:  69.23  111
+          Pathway: precision:  40.00%; recall:  33.33%; FB1:  36.36  5
+           PosReg: precision:  62.96%; recall:  66.67%; FB1:  64.76  54
+          Protein: precision:  12.20%; recall:  12.50%; FB1:  12.35  41
+              Reg: precision:  61.87%; recall:  59.55%; FB1:  60.69  257
+              Var: precision:  48.02%; recall:  62.21%; FB1:  54.20  504
+processed 43128 tokens with 1610 phrases; found: 1814 phrases; correct: 929.
+accuracy:  62.82%; (non-O)
+accuracy:  95.44%; precision:  51.21%; recall:  57.70%; FB1:  54.26
+              CPA: precision:  13.64%; recall:  14.29%; FB1:  13.95  44
+          Disease: precision:  44.41%; recall:  57.43%; FB1:  50.09  322
+           Enzyme: precision:  40.00%; recall:  15.38%; FB1:  22.22  5
+             Gene: precision:  59.89%; recall:  67.73%; FB1:  63.57  354
+      Interaction: precision:  33.33%; recall:  40.00%; FB1:  36.36  6
+              MPA: precision:  29.27%; recall:  34.78%; FB1:  31.79  164
+           NegReg: precision:  65.42%; recall:  72.16%; FB1:  68.63  107
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  66.67%; recall:  70.59%; FB1:  68.57  54
+          Protein: precision:  16.67%; recall:  12.50%; FB1:  14.29  30
+              Reg: precision:  63.40%; recall:  55.81%; FB1:  59.36  235
+              Var: precision:  51.74%; recall:  65.04%; FB1:  57.63  489
+processed 43128 tokens with 1610 phrases; found: 1675 phrases; correct: 878.
+accuracy:  58.83%; (non-O)
+accuracy:  95.58%; precision:  52.42%; recall:  54.53%; FB1:  53.46
+              CPA: precision:  11.76%; recall:  19.05%; FB1:  14.55  68
+          Disease: precision:  49.82%; recall:  54.22%; FB1:  51.92  271
+           Enzyme: precision:  42.86%; recall:  23.08%; FB1:  30.00  7
+             Gene: precision:  68.01%; recall:  59.11%; FB1:  63.25  272
+      Interaction: precision:  33.33%; recall:  40.00%; FB1:  36.36  6
+              MPA: precision:  29.31%; recall:  36.96%; FB1:  32.69  174
+           NegReg: precision:  63.96%; recall:  73.20%; FB1:  68.27  111
+          Pathway: precision:  42.86%; recall:  50.00%; FB1:  46.15  7
+           PosReg: precision:  51.43%; recall:  70.59%; FB1:  59.50  70
+          Protein: precision:  15.79%; recall:  15.00%; FB1:  15.38  38
+              Reg: precision:  67.32%; recall:  51.69%; FB1:  58.47  205
+              Var: precision:  53.81%; recall:  61.70%; FB1:  57.49  446
+processed 43128 tokens with 1610 phrases; found: 1736 phrases; correct: 885.
+accuracy:  59.43%; (non-O)
+accuracy:  95.55%; precision:  50.98%; recall:  54.97%; FB1:  52.90
+              CPA: precision:  14.52%; recall:  21.43%; FB1:  17.31  62
+          Disease: precision:  47.42%; recall:  55.42%; FB1:  51.11  291
+           Enzyme: precision:  33.33%; recall:  23.08%; FB1:  27.27  9
+             Gene: precision:  63.90%; recall:  63.90%; FB1:  63.90  313
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  25.86%; recall:  32.61%; FB1:  28.85  174
+           NegReg: precision:  59.26%; recall:  65.98%; FB1:  62.44  108
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  62.26%; recall:  64.71%; FB1:  63.46  53
+          Protein: precision:  14.29%; recall:  15.00%; FB1:  14.63  42
+              Reg: precision:  67.84%; recall:  50.56%; FB1:  57.94  199
+              Var: precision:  52.33%; recall:  63.50%; FB1:  57.38  472
+processed 43128 tokens with 1610 phrases; found: 1775 phrases; correct: 857.
+accuracy:  58.60%; (non-O)
+accuracy:  95.35%; precision:  48.28%; recall:  53.23%; FB1:  50.64
+              CPA: precision:  10.61%; recall:  16.67%; FB1:  12.96  66
+          Disease: precision:  42.81%; recall:  51.41%; FB1:  46.72  299
+           Enzyme: precision:  33.33%; recall:  15.38%; FB1:  21.05  6
+             Gene: precision:  57.99%; recall:  59.11%; FB1:  58.54  319
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  26.70%; recall:  34.06%; FB1:  29.94  176
+           NegReg: precision:  68.42%; recall:  67.01%; FB1:  67.71  95
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  47.83%; recall:  64.71%; FB1:  55.00  69
+          Protein: precision:   9.68%; recall:   7.50%; FB1:   8.45  31
+              Reg: precision:  62.67%; recall:  50.94%; FB1:  56.20  217
+              Var: precision:  50.62%; recall:  63.24%; FB1:  56.23  486
+processed 43128 tokens with 1610 phrases; found: 1723 phrases; correct: 863.
+accuracy:  59.40%; (non-O)
+accuracy:  95.44%; precision:  50.09%; recall:  53.60%; FB1:  51.79
+              CPA: precision:   9.57%; recall:  21.43%; FB1:  13.24  94
+          Disease: precision:  47.81%; recall:  52.61%; FB1:  50.10  274
+           Enzyme: precision:  25.00%; recall:  15.38%; FB1:  19.05  8
+             Gene: precision:  56.13%; recall:  62.94%; FB1:  59.34  351
+      Interaction: precision:  33.33%; recall:  40.00%; FB1:  36.36  6
+              MPA: precision:  25.48%; recall:  28.99%; FB1:  27.12  157
+           NegReg: precision:  73.40%; recall:  71.13%; FB1:  72.25  94
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  62.26%; recall:  64.71%; FB1:  63.46  53
+          Protein: precision:  13.89%; recall:  12.50%; FB1:  13.16  36
+              Reg: precision:  74.51%; recall:  42.70%; FB1:  54.29  153
+              Var: precision:  52.33%; recall:  66.32%; FB1:  58.50  493
+processed 43128 tokens with 1610 phrases; found: 1603 phrases; correct: 839.
+accuracy:  58.96%; (non-O)
+accuracy:  95.51%; precision:  52.34%; recall:  52.11%; FB1:  52.23
+              CPA: precision:  13.73%; recall:  16.67%; FB1:  15.05  51
+          Disease: precision:  45.73%; recall:  53.82%; FB1:  49.45  293
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+             Gene: precision:  66.67%; recall:  56.87%; FB1:  61.38  267
+      Interaction: precision:  40.00%; recall:  40.00%; FB1:  40.00  5
+              MPA: precision:  25.14%; recall:  31.88%; FB1:  28.12  175
+           NegReg: precision:  66.98%; recall:  73.20%; FB1:  69.95  106
+          Pathway: precision: 100.00%; recall:  50.00%; FB1:  66.67  3
+           PosReg: precision:  66.00%; recall:  64.71%; FB1:  65.35  50
+          Protein: precision:   9.38%; recall:   7.50%; FB1:   8.33  32
+              Reg: precision:  75.17%; recall:  40.82%; FB1:  52.91  145
+              Var: precision:  53.91%; recall:  65.55%; FB1:  59.16  473
+processed 43128 tokens with 1610 phrases; found: 1792 phrases; correct: 906.
+accuracy:  62.28%; (non-O)
+accuracy:  95.44%; precision:  50.56%; recall:  56.27%; FB1:  53.26
+              CPA: precision:  10.67%; recall:  19.05%; FB1:  13.68  75
+          Disease: precision:  45.33%; recall:  54.62%; FB1:  49.54  300
+           Enzyme: precision:  20.00%; recall:   7.69%; FB1:  11.11  5
+             Gene: precision:  59.76%; recall:  63.58%; FB1:  61.61  333
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  26.83%; recall:  31.88%; FB1:  29.14  164
+           NegReg: precision:  70.65%; recall:  67.01%; FB1:  68.78  92
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  50.00%; recall:  66.67%; FB1:  57.14  68
+          Protein: precision:  13.33%; recall:   5.00%; FB1:   7.27  15
+              Reg: precision:  61.90%; recall:  58.43%; FB1:  60.12  252
+              Var: precision:  54.01%; recall:  65.81%; FB1:  59.33  474
+processed 43128 tokens with 1610 phrases; found: 1633 phrases; correct: 880.
+accuracy:  60.42%; (non-O)
+accuracy:  95.63%; precision:  53.89%; recall:  54.66%; FB1:  54.27
+              CPA: precision:  17.65%; recall:  14.29%; FB1:  15.79  34
+          Disease: precision:  43.55%; recall:  61.04%; FB1:  50.84  349
+           Enzyme: precision:  28.57%; recall:  15.38%; FB1:  20.00  7
+             Gene: precision:  66.23%; recall:  63.90%; FB1:  65.04  302
+      Interaction: precision:  33.33%; recall:  20.00%; FB1:  25.00  3
+              MPA: precision:  28.66%; recall:  32.61%; FB1:  30.51  157
+           NegReg: precision:  75.00%; recall:  58.76%; FB1:  65.90  76
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  65.31%; recall:  62.75%; FB1:  64.00  49
+          Protein: precision:   9.52%; recall:   5.00%; FB1:   6.56  21
+              Reg: precision:  70.67%; recall:  55.06%; FB1:  61.89  208
+              Var: precision:  55.08%; recall:  59.90%; FB1:  57.39  423
+processed 43128 tokens with 1610 phrases; found: 1463 phrases; correct: 787.
+accuracy:  50.90%; (non-O)
+accuracy:  95.55%; precision:  53.79%; recall:  48.88%; FB1:  51.22
+              CPA: precision:  13.33%; recall:  19.05%; FB1:  15.69  60
+          Disease: precision:  54.01%; recall:  40.56%; FB1:  46.33  187
+           Enzyme: precision:  50.00%; recall:  15.38%; FB1:  23.53  4
+             Gene: precision:  69.08%; recall:  54.95%; FB1:  61.21  249
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  29.08%; recall:  29.71%; FB1:  29.39  141
+           NegReg: precision:  74.16%; recall:  68.04%; FB1:  70.97  89
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  58.93%; recall:  64.71%; FB1:  61.68  56
+          Protein: precision:  11.76%; recall:  10.00%; FB1:  10.81  34
+              Reg: precision:  72.78%; recall:  49.06%; FB1:  58.61  180
+              Var: precision:  49.34%; recall:  57.84%; FB1:  53.25  456
+processed 43128 tokens with 1610 phrases; found: 1474 phrases; correct: 814.
+accuracy:  55.54%; (non-O)
+accuracy:  95.69%; precision:  55.22%; recall:  50.56%; FB1:  52.79
+              CPA: precision:  19.05%; recall:  19.05%; FB1:  19.05  42
+          Disease: precision:  50.56%; recall:  54.62%; FB1:  52.51  269
+           Enzyme: precision:  33.33%; recall:  15.38%; FB1:  21.05  6
+             Gene: precision:  67.97%; recall:  55.59%; FB1:  61.16  256
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  28.26%; recall:  28.26%; FB1:  28.26  138
+           NegReg: precision:  75.00%; recall:  61.86%; FB1:  67.80  80
+          Pathway: precision:  50.00%; recall:  33.33%; FB1:  40.00  4
+           PosReg: precision:  58.18%; recall:  62.75%; FB1:  60.38  55
+          Protein: precision:  13.33%; recall:  10.00%; FB1:  11.43  30
+              Reg: precision:  73.65%; recall:  46.07%; FB1:  56.68  167
+              Var: precision:  54.85%; recall:  59.64%; FB1:  57.14  423
+processed 43128 tokens with 1610 phrases; found: 1796 phrases; correct: 899.
+accuracy:  60.79%; (non-O)
+accuracy:  95.51%; precision:  50.06%; recall:  55.84%; FB1:  52.79
+              CPA: precision:   9.33%; recall:  16.67%; FB1:  11.97  75
+          Disease: precision:  54.07%; recall:  53.41%; FB1:  53.74  246
+           Enzyme: precision:  28.57%; recall:  15.38%; FB1:  20.00  7
+             Gene: precision:  55.82%; recall:  67.41%; FB1:  61.07  378
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  25.97%; recall:  28.99%; FB1:  27.40  154
+           NegReg: precision:  68.09%; recall:  65.98%; FB1:  67.02  94
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  52.54%; recall:  60.78%; FB1:  56.36  59
+          Protein: precision:  26.53%; recall:  32.50%; FB1:  29.21  49
+              Reg: precision:  64.62%; recall:  51.31%; FB1:  57.20  212
+              Var: precision:  50.39%; recall:  66.07%; FB1:  57.17  510
+processed 43128 tokens with 1610 phrases; found: 1608 phrases; correct: 884.
+accuracy:  59.36%; (non-O)
+accuracy:  95.75%; precision:  54.98%; recall:  54.91%; FB1:  54.94
+              CPA: precision:  12.99%; recall:  23.81%; FB1:  16.81  77
+          Disease: precision:  53.17%; recall:  53.82%; FB1:  53.49  252
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+             Gene: precision:  64.19%; recall:  60.70%; FB1:  62.40  296
+      Interaction: precision:  18.18%; recall:  40.00%; FB1:  25.00  11
+              MPA: precision:  30.15%; recall:  29.71%; FB1:  29.93  136
+           NegReg: precision:  76.19%; recall:  65.98%; FB1:  70.72  84
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  60.78%; recall:  60.78%; FB1:  60.78  51
+          Protein: precision:  16.67%; recall:  17.50%; FB1:  17.07  42
+              Reg: precision:  69.90%; recall:  51.31%; FB1:  59.18  196
+              Var: precision:  57.86%; recall:  68.12%; FB1:  62.57  458
+processed 43128 tokens with 1610 phrases; found: 1488 phrases; correct: 838.
+accuracy:  54.55%; (non-O)
+accuracy:  95.64%; precision:  56.32%; recall:  52.05%; FB1:  54.10
+              CPA: precision:  20.00%; recall:  14.29%; FB1:  16.67  30
+          Disease: precision:  47.74%; recall:  59.44%; FB1:  52.95  310
+           Enzyme: precision:  16.67%; recall:   7.69%; FB1:  10.53  6
+             Gene: precision:  68.25%; recall:  59.74%; FB1:  63.71  274
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  27.33%; recall:  29.71%; FB1:  28.47  150
+           NegReg: precision:  75.00%; recall:  64.95%; FB1:  69.61  84
+          Pathway: precision: 100.00%; recall:  50.00%; FB1:  66.67  3
+           PosReg: precision:  56.14%; recall:  62.75%; FB1:  59.26  57
+          Protein: precision:  24.00%; recall:  15.00%; FB1:  18.46  25
+              Reg: precision:  67.92%; recall:  53.93%; FB1:  60.13  212
+              Var: precision:  61.56%; recall:  52.70%; FB1:  56.79  333
+processed 43128 tokens with 1610 phrases; found: 1474 phrases; correct: 825.
+accuracy:  56.31%; (non-O)
+accuracy:  95.67%; precision:  55.97%; recall:  51.24%; FB1:  53.50
+              CPA: precision:  15.69%; recall:  19.05%; FB1:  17.20  51
+          Disease: precision:  53.75%; recall:  51.81%; FB1:  52.76  240
+           Enzyme: precision:  42.86%; recall:  23.08%; FB1:  30.00  7
+             Gene: precision:  61.54%; recall:  63.90%; FB1:  62.70  325
+      Interaction: precision:  25.00%; recall:  20.00%; FB1:  22.22  4
+              MPA: precision:  31.37%; recall:  34.78%; FB1:  32.99  153
+           NegReg: precision:  73.68%; recall:  57.73%; FB1:  64.74  76
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  68.29%; recall:  54.90%; FB1:  60.87  41
+          Protein: precision:  15.79%; recall:   7.50%; FB1:  10.17  19
+              Reg: precision:  71.28%; recall:  50.19%; FB1:  58.90  188
+              Var: precision:  58.04%; recall:  54.76%; FB1:  56.35  367
+processed 43128 tokens with 1610 phrases; found: 1919 phrases; correct: 870.
+accuracy:  57.67%; (non-O)
+accuracy:  95.17%; precision:  45.34%; recall:  54.04%; FB1:  49.31
+              CPA: precision:   7.00%; recall:  16.67%; FB1:   9.86  100
+          Disease: precision:  44.74%; recall:  54.62%; FB1:  49.19  304
+           Enzyme: precision:  12.50%; recall:  23.08%; FB1:  16.22  24
+             Gene: precision:  56.92%; recall:  69.65%; FB1:  62.64  383
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  21.94%; recall:  31.16%; FB1:  25.75  196
+           NegReg: precision:  65.66%; recall:  67.01%; FB1:  66.33  99
+          Pathway: precision: 100.00%; recall:  50.00%; FB1:  66.67  3
+           PosReg: precision:  44.71%; recall:  74.51%; FB1:  55.88  85
+          Protein: precision:  14.00%; recall:  17.50%; FB1:  15.56  50
+              Reg: precision:  47.32%; recall:  39.70%; FB1:  43.18  224
+              Var: precision:  54.75%; recall:  62.21%; FB1:  58.24  442
+processed 43128 tokens with 1610 phrases; found: 1822 phrases; correct: 893.
+accuracy:  61.89%; (non-O)
+accuracy:  95.19%; precision:  49.01%; recall:  55.47%; FB1:  52.04
+              CPA: precision:   9.80%; recall:  23.81%; FB1:  13.89  102
+          Disease: precision:  37.41%; recall:  63.86%; FB1:  47.18  425
+           Enzyme: precision:  27.27%; recall:  23.08%; FB1:  25.00  11
+             Gene: precision:  67.27%; recall:  59.74%; FB1:  63.28  278
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  21.43%; recall:  21.74%; FB1:  21.58  140
+           NegReg: precision:  64.15%; recall:  70.10%; FB1:  67.00  106
+          Pathway: precision:  42.86%; recall:  50.00%; FB1:  46.15  7
+           PosReg: precision:  49.32%; recall:  70.59%; FB1:  58.06  73
+          Protein: precision:  13.33%; recall:  10.00%; FB1:  11.43  30
+              Reg: precision:  70.15%; recall:  52.81%; FB1:  60.26  201
+              Var: precision:  56.56%; recall:  64.27%; FB1:  60.17  442
+processed 43128 tokens with 1610 phrases; found: 2113 phrases; correct: 981.
+accuracy:  66.30%; (non-O)
+accuracy:  94.89%; precision:  46.43%; recall:  60.93%; FB1:  52.70
+              CPA: precision:   9.23%; recall:  14.29%; FB1:  11.21  65
+          Disease: precision:  45.22%; recall:  62.65%; FB1:  52.53  345
+           Enzyme: precision:  11.11%; recall:  15.38%; FB1:  12.90  18
+             Gene: precision:  55.72%; recall:  73.16%; FB1:  63.26  411
+      Interaction: precision:  15.38%; recall:  40.00%; FB1:  22.22  13
+              MPA: precision:  18.54%; recall:  40.58%; FB1:  25.45  302
+           NegReg: precision:  70.00%; recall:  64.95%; FB1:  67.38  90
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  47.89%; recall:  66.67%; FB1:  55.74  71
+          Protein: precision:  17.95%; recall:  17.50%; FB1:  17.72  39
+              Reg: precision:  66.23%; recall:  57.30%; FB1:  61.45  231
+              Var: precision:  51.62%; recall:  69.67%; FB1:  59.30  525
+processed 43128 tokens with 1610 phrases; found: 1938 phrases; correct: 953.
+accuracy:  63.91%; (non-O)
+accuracy:  95.35%; precision:  49.17%; recall:  59.19%; FB1:  53.72
+              CPA: precision:  12.96%; recall:  16.67%; FB1:  14.58  54
+          Disease: precision:  43.01%; recall:  64.26%; FB1:  51.53  372
+           Enzyme: precision:  18.18%; recall:  30.77%; FB1:  22.86  22
+             Gene: precision:  57.36%; recall:  70.93%; FB1:  63.43  387
+      Interaction: precision:  20.00%; recall:  40.00%; FB1:  26.67  10
+              MPA: precision:  22.28%; recall:  29.71%; FB1:  25.47  184
+           NegReg: precision:  65.71%; recall:  71.13%; FB1:  68.32  105
+          Pathway: precision:  33.33%; recall:  33.33%; FB1:  33.33  6
+           PosReg: precision:  57.63%; recall:  66.67%; FB1:  61.82  59
+          Protein: precision:  14.89%; recall:  17.50%; FB1:  16.09  47
+              Reg: precision:  66.67%; recall:  51.69%; FB1:  58.23  207
+              Var: precision:  55.05%; recall:  68.64%; FB1:  61.10  485
+processed 43128 tokens with 1610 phrases; found: 1763 phrases; correct: 918.
+accuracy:  62.28%; (non-O)
+accuracy:  95.58%; precision:  52.07%; recall:  57.02%; FB1:  54.43
+              CPA: precision:  15.38%; recall:  14.29%; FB1:  14.81  39
+          Disease: precision:  47.92%; recall:  60.24%; FB1:  53.38  313
+           Enzyme: precision:  27.27%; recall:  46.15%; FB1:  34.29  22
+             Gene: precision:  61.42%; recall:  66.13%; FB1:  63.69  337
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  26.95%; recall:  32.61%; FB1:  29.51  167
+           NegReg: precision:  71.13%; recall:  71.13%; FB1:  71.13  97
+          Pathway: precision:  50.00%; recall:  33.33%; FB1:  40.00  4
+           PosReg: precision:  55.74%; recall:  66.67%; FB1:  60.71  61
+          Protein: precision:  10.87%; recall:  12.50%; FB1:  11.63  46
+              Reg: precision:  65.37%; recall:  50.19%; FB1:  56.78  205
+              Var: precision:  55.72%; recall:  66.32%; FB1:  60.56  463
+processed 43128 tokens with 1610 phrases; found: 1624 phrases; correct: 868.
+accuracy:  59.23%; (non-O)
+accuracy:  95.57%; precision:  53.45%; recall:  53.91%; FB1:  53.68
+              CPA: precision:  11.48%; recall:  16.67%; FB1:  13.59  61
+          Disease: precision:  54.65%; recall:  59.04%; FB1:  56.76  269
+           Enzyme: precision:  28.57%; recall:  46.15%; FB1:  35.29  21
+             Gene: precision:  66.91%; recall:  59.42%; FB1:  62.94  278
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  24.87%; recall:  35.51%; FB1:  29.25  197
+           NegReg: precision:  81.82%; recall:  64.95%; FB1:  72.41  77
+          Pathway: precision:  50.00%; recall:  33.33%; FB1:  40.00  4
+           PosReg: precision:  51.67%; recall:  60.78%; FB1:  55.86  60
+          Protein: precision:   9.68%; recall:   7.50%; FB1:   8.45  31
+              Reg: precision:  70.52%; recall:  45.69%; FB1:  55.45  173
+              Var: precision:  56.31%; recall:  64.27%; FB1:  60.02  444
+processed 43128 tokens with 1610 phrases; found: 1663 phrases; correct: 868.
+accuracy:  60.26%; (non-O)
+accuracy:  95.64%; precision:  52.19%; recall:  53.91%; FB1:  53.04
+              CPA: precision:  11.29%; recall:  16.67%; FB1:  13.46  62
+          Disease: precision:  52.96%; recall:  57.43%; FB1:  55.11  270
+           Enzyme: precision:  37.50%; recall:  23.08%; FB1:  28.57  8
+             Gene: precision:  59.62%; recall:  60.38%; FB1:  60.00  317
+      Interaction: precision:  18.18%; recall:  40.00%; FB1:  25.00  11
+              MPA: precision:  25.29%; recall:  31.16%; FB1:  27.92  170
+           NegReg: precision:  68.13%; recall:  63.92%; FB1:  65.96  91
+          Pathway: precision:  16.67%; recall:  16.67%; FB1:  16.67  6
+           PosReg: precision:  56.60%; recall:  58.82%; FB1:  57.69  53
+          Protein: precision:  17.65%; recall:  22.50%; FB1:  19.78  51
+              Reg: precision:  68.37%; recall:  50.19%; FB1:  57.88  196
+              Var: precision:  57.24%; recall:  62.98%; FB1:  59.98  428
+processed 43128 tokens with 1610 phrases; found: 1763 phrases; correct: 927.
+accuracy:  62.78%; (non-O)
+accuracy:  95.70%; precision:  52.58%; recall:  57.58%; FB1:  54.97
+              CPA: precision:  11.67%; recall:  16.67%; FB1:  13.73  60
+          Disease: precision:  52.84%; recall:  59.84%; FB1:  56.12  282
+           Enzyme: precision:  42.86%; recall:  46.15%; FB1:  44.44  14
+             Gene: precision:  54.83%; recall:  67.09%; FB1:  60.34  383
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  29.41%; recall:  32.61%; FB1:  30.93  153
+           NegReg: precision:  76.83%; recall:  64.95%; FB1:  70.39  82
+          Pathway: precision:  33.33%; recall:  16.67%; FB1:  22.22  3
+           PosReg: precision:  59.62%; recall:  60.78%; FB1:  60.19  52
+          Protein: precision:  28.21%; recall:  27.50%; FB1:  27.85  39
+              Reg: precision:  66.51%; recall:  52.06%; FB1:  58.40  209
+              Var: precision:  54.91%; recall:  67.61%; FB1:  60.60  479
+processed 43128 tokens with 1610 phrases; found: 1664 phrases; correct: 909.
+accuracy:  61.89%; (non-O)
+accuracy:  95.77%; precision:  54.63%; recall:  56.46%; FB1:  55.53
+              CPA: precision:  12.50%; recall:  14.29%; FB1:  13.33  48
+          Disease: precision:  52.20%; recall:  61.85%; FB1:  56.62  295
+           Enzyme: precision:  40.00%; recall:  30.77%; FB1:  34.78  10
+             Gene: precision:  62.83%; recall:  68.05%; FB1:  65.34  339
+      Interaction: precision:  40.00%; recall:  40.00%; FB1:  40.00  5
+              MPA: precision:  27.01%; recall:  34.06%; FB1:  30.13  174
+           NegReg: precision:  64.21%; recall:  62.89%; FB1:  63.54  95
+          Pathway: precision:  33.33%; recall:  16.67%; FB1:  22.22  3
+           PosReg: precision:  58.93%; recall:  64.71%; FB1:  61.68  56
+          Protein: precision:  30.00%; recall:  22.50%; FB1:  25.71  30
+              Reg: precision:  68.32%; recall:  51.69%; FB1:  58.85  202
+              Var: precision:  59.21%; recall:  61.95%; FB1:  60.55  407
+processed 43128 tokens with 1610 phrases; found: 1657 phrases; correct: 895.
+accuracy:  61.72%; (non-O)
+accuracy:  95.72%; precision:  54.01%; recall:  55.59%; FB1:  54.79
+              CPA: precision:  10.53%; recall:  14.29%; FB1:  12.12  57
+          Disease: precision:  53.38%; recall:  60.24%; FB1:  56.60  281
+           Enzyme: precision:  30.77%; recall:  30.77%; FB1:  30.77  13
+             Gene: precision:  67.37%; recall:  61.34%; FB1:  64.21  285
+      Interaction: precision:  33.33%; recall:  40.00%; FB1:  36.36  6
+              MPA: precision:  28.05%; recall:  33.33%; FB1:  30.46  164
+           NegReg: precision:  68.42%; recall:  67.01%; FB1:  67.71  95
+          Pathway: precision:  25.00%; recall:  16.67%; FB1:  20.00  4
+           PosReg: precision:  55.00%; recall:  64.71%; FB1:  59.46  60
+          Protein: precision:  17.39%; recall:  20.00%; FB1:  18.60  46
+              Reg: precision:  67.84%; recall:  50.56%; FB1:  57.94  199
+              Var: precision:  56.60%; recall:  65.04%; FB1:  60.53  447
+processed 43128 tokens with 1610 phrases; found: 1714 phrases; correct: 915.
+accuracy:  61.75%; (non-O)
+accuracy:  95.68%; precision:  53.38%; recall:  56.83%; FB1:  55.05
+              CPA: precision:  10.34%; recall:  14.29%; FB1:  12.00  58
+          Disease: precision:  54.05%; recall:  56.22%; FB1:  55.12  259
+           Enzyme: precision:  43.75%; recall:  53.85%; FB1:  48.28  16
+             Gene: precision:  64.67%; recall:  65.50%; FB1:  65.08  317
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  29.41%; recall:  36.23%; FB1:  32.47  170
+           NegReg: precision:  67.33%; recall:  70.10%; FB1:  68.69  101
+          Pathway: precision: 100.00%; recall:  33.33%; FB1:  50.00  2
+           PosReg: precision:  53.97%; recall:  66.67%; FB1:  59.65  63
+          Protein: precision:  18.60%; recall:  20.00%; FB1:  19.28  43
+              Reg: precision:  68.91%; recall:  49.81%; FB1:  57.83  193
+              Var: precision:  53.72%; recall:  66.84%; FB1:  59.56  484
+processed 43128 tokens with 1610 phrases; found: 1698 phrases; correct: 909.
+accuracy:  60.99%; (non-O)
+accuracy:  95.69%; precision:  53.53%; recall:  56.46%; FB1:  54.96
+              CPA: precision:  12.90%; recall:  19.05%; FB1:  15.38  62
+          Disease: precision:  53.26%; recall:  62.25%; FB1:  57.41  291
+           Enzyme: precision:  40.00%; recall:  46.15%; FB1:  42.86  15
+             Gene: precision:  62.62%; recall:  64.22%; FB1:  63.41  321
+      Interaction: precision:  33.33%; recall:  40.00%; FB1:  36.36  6
+              MPA: precision:  30.88%; recall:  30.43%; FB1:  30.66  136
+           NegReg: precision:  67.68%; recall:  69.07%; FB1:  68.37  99
+          Pathway: precision: 100.00%; recall:  33.33%; FB1:  50.00  2
+           PosReg: precision:  62.26%; recall:  64.71%; FB1:  63.46  53
+          Protein: precision:  26.83%; recall:  27.50%; FB1:  27.16  41
+              Reg: precision:  67.89%; recall:  48.31%; FB1:  56.46  190
+              Var: precision:  52.49%; recall:  65.04%; FB1:  58.09  482
+processed 43128 tokens with 1610 phrases; found: 1741 phrases; correct: 883.
+accuracy:  57.07%; (non-O)
+accuracy:  95.62%; precision:  50.72%; recall:  54.84%; FB1:  52.70
+              CPA: precision:  15.62%; recall:  11.90%; FB1:  13.51  32
+          Disease: precision:  42.77%; recall:  54.62%; FB1:  47.97  318
+           Enzyme: precision:  50.00%; recall:  46.15%; FB1:  48.00  12
+             Gene: precision:  59.39%; recall:  68.69%; FB1:  63.70  362
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  23.31%; recall:  27.54%; FB1:  25.25  163
+           NegReg: precision:  50.77%; recall:  68.04%; FB1:  58.15  130
+          Pathway: precision: 100.00%; recall:  33.33%; FB1:  50.00  2
+           PosReg: precision:  55.00%; recall:  64.71%; FB1:  59.46  60
+          Protein: precision:  16.67%; recall:  17.50%; FB1:  17.07  42
+              Reg: precision:  68.97%; recall:  52.43%; FB1:  59.57  203
+              Var: precision:  56.42%; recall:  59.90%; FB1:  58.10  413
+processed 43128 tokens with 1610 phrases; found: 2211 phrases; correct: 941.
+accuracy:  65.84%; (non-O)
+accuracy:  94.21%; precision:  42.56%; recall:  58.45%; FB1:  49.25
+              CPA: precision:   7.96%; recall:  21.43%; FB1:  11.61  113
+          Disease: precision:  41.39%; recall:  64.66%; FB1:  50.47  389
+           Enzyme: precision:  23.53%; recall:  30.77%; FB1:  26.67  17
+             Gene: precision:  57.73%; recall:  63.26%; FB1:  60.37  343
+      Interaction: precision:  12.50%; recall:  20.00%; FB1:  15.38  8
+              MPA: precision:  12.88%; recall:  30.43%; FB1:  18.10  326
+           NegReg: precision:  53.19%; recall:  77.32%; FB1:  63.03  141
+          Pathway: precision:  18.18%; recall:  66.67%; FB1:  28.57  22
+           PosReg: precision:  40.86%; recall:  74.51%; FB1:  52.78  93
+          Protein: precision:  11.84%; recall:  22.50%; FB1:  15.52  76
+              Reg: precision:  65.70%; recall:  50.94%; FB1:  57.38  207
+              Var: precision:  55.46%; recall:  67.87%; FB1:  61.04  476
+processed 43128 tokens with 1610 phrases; found: 1837 phrases; correct: 823.
+accuracy:  57.50%; (non-O)
+accuracy:  95.05%; precision:  44.80%; recall:  51.12%; FB1:  47.75
+              CPA: precision:  13.64%; recall:  21.43%; FB1:  16.67  66
+          Disease: precision:  43.70%; recall:  47.39%; FB1:  45.47  270
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+             Gene: precision:  50.69%; recall:  58.47%; FB1:  54.30  361
+      Interaction: precision:  20.00%; recall:  20.00%; FB1:  20.00  5
+              MPA: precision:  21.11%; recall:  30.43%; FB1:  24.93  199
+           NegReg: precision:  66.36%; recall:  75.26%; FB1:  70.53  110
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  57.89%; recall:  64.71%; FB1:  61.11  57
+          Protein: precision:  10.34%; recall:  22.50%; FB1:  14.17  87
+              Reg: precision:  65.00%; recall:  34.08%; FB1:  44.72  140
+              Var: precision:  48.69%; recall:  67.10%; FB1:  56.43  536
+processed 43128 tokens with 1610 phrases; found: 1834 phrases; correct: 905.
+accuracy:  60.72%; (non-O)
+accuracy:  95.29%; precision:  49.35%; recall:  56.21%; FB1:  52.56
+              CPA: precision:  15.85%; recall:  30.95%; FB1:  20.97  82
+          Disease: precision:  45.28%; recall:  55.82%; FB1:  50.00  307
+           Enzyme: precision:  23.08%; recall:  23.08%; FB1:  23.08  13
+             Gene: precision:  54.35%; recall:  65.81%; FB1:  59.54  379
+      Interaction: precision:  22.22%; recall:  40.00%; FB1:  28.57  9
+              MPA: precision:  24.83%; recall:  26.81%; FB1:  25.78  149
+           NegReg: precision:  73.40%; recall:  71.13%; FB1:  72.25  94
+          Pathway: precision:  20.00%; recall:  33.33%; FB1:  25.00  10
+           PosReg: precision:  59.65%; recall:  66.67%; FB1:  62.96  57
+          Protein: precision:  10.61%; recall:  17.50%; FB1:  13.21  66
+              Reg: precision:  62.34%; recall:  55.81%; FB1:  58.89  239
+              Var: precision:  56.88%; recall:  62.72%; FB1:  59.66  429
+processed 43128 tokens with 1610 phrases; found: 1854 phrases; correct: 930.
+accuracy:  63.25%; (non-O)
+accuracy:  95.48%; precision:  50.16%; recall:  57.76%; FB1:  53.70
+              CPA: precision:  21.95%; recall:  21.43%; FB1:  21.69  41
+          Disease: precision:  41.23%; recall:  59.44%; FB1:  48.68  359
+           Enzyme: precision:  40.00%; recall:  30.77%; FB1:  34.78  10
+             Gene: precision:  64.92%; recall:  63.26%; FB1:  64.08  305
+      Interaction: precision:  11.11%; recall:  20.00%; FB1:  14.29  9
+              MPA: precision:  24.08%; recall:  33.33%; FB1:  27.96  191
+           NegReg: precision:  80.46%; recall:  72.16%; FB1:  76.09  87
+          Pathway: precision:  40.00%; recall:  33.33%; FB1:  36.36  5
+           PosReg: precision:  62.26%; recall:  64.71%; FB1:  63.46  53
+          Protein: precision:  12.77%; recall:  15.00%; FB1:  13.79  47
+              Reg: precision:  58.76%; recall:  60.30%; FB1:  59.52  274
+              Var: precision:  53.28%; recall:  64.78%; FB1:  58.47  473
+processed 43128 tokens with 1610 phrases; found: 1527 phrases; correct: 822.
+accuracy:  54.15%; (non-O)
+accuracy:  95.48%; precision:  53.83%; recall:  51.06%; FB1:  52.41
+              CPA: precision:  17.54%; recall:  23.81%; FB1:  20.20  57
+          Disease: precision:  50.18%; recall:  56.63%; FB1:  53.21  281
+           Enzyme: precision:  11.76%; recall:  15.38%; FB1:  13.33  17
+             Gene: precision:  67.27%; recall:  59.11%; FB1:  62.93  275
+      Interaction: precision:  25.00%; recall:  20.00%; FB1:  22.22  4
+              MPA: precision:  21.89%; recall:  26.81%; FB1:  24.10  169
+           NegReg: precision:  73.47%; recall:  74.23%; FB1:  73.85  98
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  60.42%; recall:  56.86%; FB1:  58.59  48
+          Protein: precision:   9.09%; recall:   7.50%; FB1:   8.22  33
+              Reg: precision:  74.68%; recall:  44.19%; FB1:  55.53  158
+              Var: precision:  57.85%; recall:  56.81%; FB1:  57.33  382
+processed 43128 tokens with 1610 phrases; found: 1740 phrases; correct: 887.
+accuracy:  56.91%; (non-O)
+accuracy:  95.32%; precision:  50.98%; recall:  55.09%; FB1:  52.96
+              CPA: precision:  11.72%; recall:  35.71%; FB1:  17.65  128
+          Disease: precision:  47.17%; recall:  50.20%; FB1:  48.64  265
+           Enzyme: precision:  12.50%; recall:   7.69%; FB1:   9.52  8
+             Gene: precision:  56.12%; recall:  70.29%; FB1:  62.41  392
+      Interaction: precision:  18.18%; recall:  40.00%; FB1:  25.00  11
+              MPA: precision:  24.24%; recall:  17.39%; FB1:  20.25  99
+           NegReg: precision:  72.34%; recall:  70.10%; FB1:  71.20  94
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  48.48%; recall:  62.75%; FB1:  54.70  66
+          Protein: precision:  13.04%; recall:   7.50%; FB1:   9.52  23
+              Reg: precision:  70.85%; recall:  59.18%; FB1:  64.49  223
+              Var: precision:  55.40%; recall:  60.67%; FB1:  57.91  426
+processed 43128 tokens with 1610 phrases; found: 1674 phrases; correct: 869.
+accuracy:  58.23%; (non-O)
+accuracy:  95.57%; precision:  51.91%; recall:  53.98%; FB1:  52.92
+              CPA: precision:  17.19%; recall:  26.19%; FB1:  20.75  64
+          Disease: precision:  47.65%; recall:  61.04%; FB1:  53.52  319
+           Enzyme: precision:  28.57%; recall:  15.38%; FB1:  20.00  7
+             Gene: precision:  62.13%; recall:  53.99%; FB1:  57.78  272
+      Interaction: precision:  10.00%; recall:  20.00%; FB1:  13.33  10
+              MPA: precision:  29.01%; recall:  27.54%; FB1:  28.25  131
+           NegReg: precision:  73.74%; recall:  75.26%; FB1:  74.49  99
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  60.38%; recall:  62.75%; FB1:  61.54  53
+          Protein: precision:  18.75%; recall:  15.00%; FB1:  16.67  32
+              Reg: precision:  66.83%; recall:  51.31%; FB1:  58.05  205
+              Var: precision:  51.47%; recall:  62.98%; FB1:  56.65  476
+processed 43128 tokens with 1610 phrases; found: 1685 phrases; correct: 880.
+accuracy:  60.26%; (non-O)
+accuracy:  95.67%; precision:  52.23%; recall:  54.66%; FB1:  53.41
+              CPA: precision:  17.07%; recall:  16.67%; FB1:  16.87  41
+          Disease: precision:  47.87%; recall:  58.63%; FB1:  52.71  305
+           Enzyme: precision:  15.79%; recall:  23.08%; FB1:  18.75  19
+             Gene: precision:  63.31%; recall:  62.30%; FB1:  62.80  308
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  19.32%; recall:  28.99%; FB1:  23.19  207
+           NegReg: precision:  75.00%; recall:  68.04%; FB1:  71.35  88
+          Pathway: precision:  25.00%; recall:  33.33%; FB1:  28.57  8
+           PosReg: precision:  56.67%; recall:  66.67%; FB1:  61.26  60
+          Protein: precision:  20.00%; recall:  12.50%; FB1:  15.38  25
+              Reg: precision:  63.87%; recall:  56.93%; FB1:  60.20  238
+              Var: precision:  59.69%; recall:  58.61%; FB1:  59.14  382
+processed 43128 tokens with 1610 phrases; found: 1720 phrases; correct: 899.
+accuracy:  61.32%; (non-O)
+accuracy:  95.72%; precision:  52.27%; recall:  55.84%; FB1:  53.99
+              CPA: precision:  23.26%; recall:  23.81%; FB1:  23.53  43
+          Disease: precision:  48.38%; recall:  59.84%; FB1:  53.50  308
+           Enzyme: precision:  20.00%; recall:  23.08%; FB1:  21.43  15
+             Gene: precision:  61.71%; recall:  62.30%; FB1:  62.00  316
+      Interaction: precision:   5.56%; recall:  20.00%; FB1:   8.70  18
+              MPA: precision:  22.22%; recall:  24.64%; FB1:  23.37  153
+           NegReg: precision:  78.31%; recall:  67.01%; FB1:  72.22  83
+          Pathway: precision:  28.57%; recall:  33.33%; FB1:  30.77  7
+           PosReg: precision:  56.36%; recall:  60.78%; FB1:  58.49  55
+          Protein: precision:  14.29%; recall:  20.00%; FB1:  16.67  56
+              Reg: precision:  64.92%; recall:  60.30%; FB1:  62.52  248
+              Var: precision:  57.42%; recall:  61.70%; FB1:  59.48  418
+processed 43128 tokens with 1610 phrases; found: 1808 phrases; correct: 911.
+accuracy:  62.38%; (non-O)
+accuracy:  95.49%; precision:  50.39%; recall:  56.58%; FB1:  53.31
+              CPA: precision:  20.00%; recall:  23.81%; FB1:  21.74  50
+          Disease: precision:  44.78%; recall:  65.46%; FB1:  53.18  364
+           Enzyme: precision:  16.67%; recall:   7.69%; FB1:  10.53  6
+             Gene: precision:  60.38%; recall:  60.38%; FB1:  60.38  313
+      Interaction: precision:  18.18%; recall:  40.00%; FB1:  25.00  11
+              MPA: precision:  26.00%; recall:  28.26%; FB1:  27.08  150
+           NegReg: precision:  70.37%; recall:  78.35%; FB1:  74.15  108
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  43.53%; recall:  72.55%; FB1:  54.41  85
+          Protein: precision:  16.33%; recall:  20.00%; FB1:  17.98  49
+              Reg: precision:  70.98%; recall:  51.31%; FB1:  59.57  193
+              Var: precision:  52.01%; recall:  63.24%; FB1:  57.08  473
+processed 43128 tokens with 1610 phrases; found: 1543 phrases; correct: 839.
+accuracy:  56.74%; (non-O)
+accuracy:  95.66%; precision:  54.37%; recall:  52.11%; FB1:  53.22
+              CPA: precision:  20.93%; recall:  21.43%; FB1:  21.18  43
+          Disease: precision:  48.07%; recall:  55.02%; FB1:  51.31  285
+           Enzyme: precision:  18.18%; recall:  15.38%; FB1:  16.67  11
+             Gene: precision:  61.06%; recall:  59.11%; FB1:  60.06  303
+      Interaction: precision:  20.00%; recall:  40.00%; FB1:  26.67  10
+              MPA: precision:  30.08%; recall:  28.99%; FB1:  29.52  133
+           NegReg: precision:  68.22%; recall:  75.26%; FB1:  71.57  107
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  60.78%; recall:  60.78%; FB1:  60.78  51
+          Protein: precision:  13.64%; recall:   7.50%; FB1:   9.68  22
+              Reg: precision:  70.06%; recall:  43.82%; FB1:  53.92  167
+              Var: precision:  58.23%; recall:  60.93%; FB1:  59.55  407
+processed 43128 tokens with 1610 phrases; found: 1657 phrases; correct: 858.
+accuracy:  59.59%; (non-O)
+accuracy:  95.59%; precision:  51.78%; recall:  53.29%; FB1:  52.53
+              CPA: precision:  23.81%; recall:  23.81%; FB1:  23.81  42
+          Disease: precision:  47.96%; recall:  56.63%; FB1:  51.93  294
+           Enzyme: precision:  16.00%; recall:  30.77%; FB1:  21.05  25
+             Gene: precision:  65.19%; recall:  56.23%; FB1:  60.38  270
+      Interaction: precision:  18.18%; recall:  40.00%; FB1:  25.00  11
+              MPA: precision:  22.42%; recall:  26.81%; FB1:  24.42  165
+           NegReg: precision:  73.20%; recall:  73.20%; FB1:  73.20  97
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  57.14%; recall:  62.75%; FB1:  59.81  56
+          Protein: precision:  19.05%; recall:  10.00%; FB1:  13.11  21
+              Reg: precision:  63.64%; recall:  52.43%; FB1:  57.49  220
+              Var: precision:  52.77%; recall:  61.18%; FB1:  56.67  451
+processed 43128 tokens with 1610 phrases; found: 1586 phrases; correct: 821.
+accuracy:  56.18%; (non-O)
+accuracy:  95.44%; precision:  51.77%; recall:  50.99%; FB1:  51.38
+              CPA: precision:  22.22%; recall:  19.05%; FB1:  20.51  36
+          Disease: precision:  54.86%; recall:  56.63%; FB1:  55.73  257
+           Enzyme: precision:  14.29%; recall:   7.69%; FB1:  10.00  7
+             Gene: precision:  64.26%; recall:  48.24%; FB1:  55.11  235
+      Interaction: precision:  15.38%; recall:  40.00%; FB1:  22.22  13
+              MPA: precision:  20.74%; recall:  28.26%; FB1:  23.93  188
+           NegReg: precision:  71.72%; recall:  73.20%; FB1:  72.45  99
+          Pathway: precision:  75.00%; recall:  50.00%; FB1:  60.00  4
+           PosReg: precision:  56.90%; recall:  64.71%; FB1:  60.55  58
+          Protein: precision:  11.11%; recall:   5.00%; FB1:   6.90  18
+              Reg: precision:  66.00%; recall:  49.44%; FB1:  56.53  200
+              Var: precision:  50.53%; recall:  61.18%; FB1:  55.35  471
+processed 43128 tokens with 1610 phrases; found: 1647 phrases; correct: 882.
+accuracy:  60.46%; (non-O)
+accuracy:  95.69%; precision:  53.55%; recall:  54.78%; FB1:  54.16
+              CPA: precision:  17.07%; recall:  16.67%; FB1:  16.87  41
+          Disease: precision:  48.63%; recall:  64.26%; FB1:  55.36  329
+           Enzyme: precision:  16.67%; recall:   7.69%; FB1:  10.53  6
+             Gene: precision:  66.07%; recall:  59.11%; FB1:  62.39  280
+      Interaction: precision:  12.50%; recall:  40.00%; FB1:  19.05  16
+              MPA: precision:  30.46%; recall:  33.33%; FB1:  31.83  151
+           NegReg: precision:  78.82%; recall:  69.07%; FB1:  73.63  85
+          Pathway: precision:  25.00%; recall:  16.67%; FB1:  20.00  4
+           PosReg: precision:  55.93%; recall:  64.71%; FB1:  60.00  59
+          Protein: precision:   6.25%; recall:   5.00%; FB1:   5.56  32
+              Reg: precision:  67.46%; recall:  52.81%; FB1:  59.24  209
+              Var: precision:  54.48%; recall:  60.93%; FB1:  57.52  435
+processed 43128 tokens with 1610 phrases; found: 1515 phrases; correct: 785.
+accuracy:  55.78%; (non-O)
+accuracy:  95.44%; precision:  51.82%; recall:  48.76%; FB1:  50.24
+              CPA: precision:  21.74%; recall:  11.90%; FB1:  15.38  23
+          Disease: precision:  44.41%; recall:  60.64%; FB1:  51.27  340
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+             Gene: precision:  67.53%; recall:  49.84%; FB1:  57.35  231
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  22.34%; recall:  31.88%; FB1:  26.27  197
+           NegReg: precision:  67.33%; recall:  70.10%; FB1:  68.69  101
+          Pathway: precision:  20.00%; recall:  16.67%; FB1:  18.18  5
+           PosReg: precision:  55.17%; recall:  62.75%; FB1:  58.72  58
+          Protein: precision:   9.38%; recall:   7.50%; FB1:   8.33  32
+              Reg: precision:  71.62%; recall:  39.70%; FB1:  51.08  148
+              Var: precision:  58.18%; recall:  55.78%; FB1:  56.96  373
+processed 43128 tokens with 1610 phrases; found: 1906 phrases; correct: 923.
+accuracy:  62.98%; (non-O)
+accuracy:  95.47%; precision:  48.43%; recall:  57.33%; FB1:  52.50
+              CPA: precision:  20.00%; recall:  19.05%; FB1:  19.51  40
+          Disease: precision:  37.66%; recall:  59.44%; FB1:  46.11  393
+           Enzyme: precision:  12.50%; recall:   7.69%; FB1:   9.52  8
+             Gene: precision:  61.65%; recall:  66.77%; FB1:  64.11  339
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  24.18%; recall:  31.88%; FB1:  27.50  182
+           NegReg: precision:  59.65%; recall:  70.10%; FB1:  64.45  114
+          Pathway: precision:  28.57%; recall:  33.33%; FB1:  30.77  7
+           PosReg: precision:  55.17%; recall:  62.75%; FB1:  58.72  58
+          Protein: precision:  20.00%; recall:  15.00%; FB1:  17.14  30
+              Reg: precision:  66.22%; recall:  55.81%; FB1:  60.57  225
+              Var: precision:  50.50%; recall:  65.30%; FB1:  56.95  503
+processed 43128 tokens with 1610 phrases; found: 1560 phrases; correct: 855.
+accuracy:  57.84%; (non-O)
+accuracy:  95.71%; precision:  54.81%; recall:  53.11%; FB1:  53.94
+              CPA: precision:  21.62%; recall:  19.05%; FB1:  20.25  37
+          Disease: precision:  46.23%; recall:  56.63%; FB1:  50.90  305
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  3
+             Gene: precision:  65.37%; recall:  59.11%; FB1:  62.08  283
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  28.57%; recall:  26.09%; FB1:  27.27  126
+           NegReg: precision:  74.70%; recall:  63.92%; FB1:  68.89  83
+          Pathway: precision:  40.00%; recall:  33.33%; FB1:  36.36  5
+           PosReg: precision:  64.00%; recall:  62.75%; FB1:  63.37  50
+          Protein: precision:   6.90%; recall:   5.00%; FB1:   5.80  29
+              Reg: precision:  70.10%; recall:  50.94%; FB1:  59.00  194
+              Var: precision:  56.46%; recall:  64.01%; FB1:  60.00  441
+processed 43128 tokens with 1610 phrases; found: 1033 phrases; correct: 650.
+accuracy:  45.42%; (non-O)
+accuracy:  95.46%; precision:  62.92%; recall:  40.37%; FB1:  49.19
+              CPA: precision:  33.33%; recall:  19.05%; FB1:  24.24  24
+          Disease: precision:  50.81%; recall:  50.20%; FB1:  50.51  246
+           Enzyme: precision:   0.00%; recall:   0.00%; FB1:   0.00  1
+             Gene: precision:  73.08%; recall:  48.56%; FB1:  58.35  208
+      Interaction: precision:  50.00%; recall:  40.00%; FB1:  44.44  4
+              MPA: precision:  33.33%; recall:  14.49%; FB1:  20.20  60
+           NegReg: precision:  70.37%; recall:  58.76%; FB1:  64.04  81
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  60.87%; recall:  54.90%; FB1:  57.73  46
+          Protein: precision:   0.00%; recall:   0.00%; FB1:   0.00  7
+              Reg: precision:  79.70%; recall:  39.70%; FB1:  53.00  133
+              Var: precision:  68.18%; recall:  38.56%; FB1:  49.26  220
+processed 43128 tokens with 1610 phrases; found: 1630 phrases; correct: 879.
+accuracy:  59.20%; (non-O)
+accuracy:  95.61%; precision:  53.93%; recall:  54.60%; FB1:  54.26
+              CPA: precision:  13.73%; recall:  16.67%; FB1:  15.05  51
+          Disease: precision:  47.81%; recall:  57.03%; FB1:  52.01  297
+           Enzyme: precision:  25.00%; recall:   7.69%; FB1:  11.76  4
+             Gene: precision:  70.49%; recall:  64.86%; FB1:  67.55  288
+      Interaction: precision:  33.33%; recall:  40.00%; FB1:  36.36  6
+              MPA: precision:  22.22%; recall:  28.99%; FB1:  25.16  180
+           NegReg: precision:  72.84%; recall:  60.82%; FB1:  66.29  81
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  50.00%; recall:  56.86%; FB1:  53.21  58
+          Protein: precision:  18.75%; recall:   7.50%; FB1:  10.71  16
+              Reg: precision:  65.37%; recall:  56.55%; FB1:  60.64  231
+              Var: precision:  58.01%; recall:  61.44%; FB1:  59.68  412
+processed 43128 tokens with 1610 phrases; found: 1750 phrases; correct: 885.
+accuracy:  61.62%; (non-O)
+accuracy:  95.38%; precision:  50.57%; recall:  54.97%; FB1:  52.68
+              CPA: precision:  20.51%; recall:  19.05%; FB1:  19.75  39
+          Disease: precision:  45.78%; recall:  56.63%; FB1:  50.63  308
+           Enzyme: precision:  33.33%; recall:  23.08%; FB1:  27.27  9
+             Gene: precision:  67.66%; recall:  65.50%; FB1:  66.56  303
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  20.21%; recall:  27.54%; FB1:  23.31  188
+           NegReg: precision:  65.00%; recall:  67.01%; FB1:  65.99  100
+          Pathway: precision:  40.00%; recall:  33.33%; FB1:  36.36  5
+           PosReg: precision:  60.42%; recall:  56.86%; FB1:  58.59  48
+          Protein: precision:  12.20%; recall:  12.50%; FB1:  12.35  41
+              Reg: precision:  60.37%; recall:  49.06%; FB1:  54.13  217
+              Var: precision:  52.78%; recall:  65.81%; FB1:  58.58  485
+processed 43128 tokens with 1610 phrases; found: 1684 phrases; correct: 906.
+accuracy:  61.02%; (non-O)
+accuracy:  95.57%; precision:  53.80%; recall:  56.27%; FB1:  55.01
+              CPA: precision:  20.00%; recall:  19.05%; FB1:  19.51  40
+          Disease: precision:  46.88%; recall:  60.24%; FB1:  52.72  320
+           Enzyme: precision:  14.29%; recall:   7.69%; FB1:  10.00  7
+             Gene: precision:  63.09%; recall:  63.90%; FB1:  63.49  317
+      Interaction: precision:  40.00%; recall:  40.00%; FB1:  40.00  5
+              MPA: precision:  25.14%; recall:  31.88%; FB1:  28.12  175
+           NegReg: precision:  76.83%; recall:  64.95%; FB1:  70.39  82
+          Pathway: precision:  60.00%; recall:  50.00%; FB1:  54.55  5
+           PosReg: precision:  62.00%; recall:  60.78%; FB1:  61.39  50
+          Protein: precision:  12.00%; recall:   7.50%; FB1:   9.23  25
+              Reg: precision:  61.87%; recall:  59.55%; FB1:  60.69  257
+              Var: precision:  60.35%; recall:  62.21%; FB1:  61.27  401
+processed 43128 tokens with 1610 phrases; found: 1795 phrases; correct: 925.
+accuracy:  61.06%; (non-O)
+accuracy:  95.39%; precision:  51.53%; recall:  57.45%; FB1:  54.33
+              CPA: precision:  19.51%; recall:  19.05%; FB1:  19.28  41
+          Disease: precision:  44.76%; recall:  56.63%; FB1:  50.00  315
+           Enzyme: precision:  22.22%; recall:  15.38%; FB1:  18.18  9
+             Gene: precision:  58.97%; recall:  69.33%; FB1:  63.73  368
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  24.35%; recall:  34.06%; FB1:  28.40  193
+           NegReg: precision:  75.58%; recall:  67.01%; FB1:  71.04  86
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  53.97%; recall:  66.67%; FB1:  59.65  63
+          Protein: precision:   7.50%; recall:   7.50%; FB1:   7.50  40
+              Reg: precision:  63.95%; recall:  55.81%; FB1:  59.60  233
+              Var: precision:  58.66%; recall:  65.30%; FB1:  61.80  433
+processed 43128 tokens with 1610 phrases; found: 1756 phrases; correct: 906.
+accuracy:  60.16%; (non-O)
+accuracy:  95.49%; precision:  51.59%; recall:  56.27%; FB1:  53.83
+              CPA: precision:  20.51%; recall:  19.05%; FB1:  19.75  39
+          Disease: precision:  40.82%; recall:  59.84%; FB1:  48.53  365
+           Enzyme: precision:  10.00%; recall:   7.69%; FB1:   8.70  10
+             Gene: precision:  61.63%; recall:  67.73%; FB1:  64.54  344
+      Interaction: precision:  28.57%; recall:  40.00%; FB1:  33.33  7
+              MPA: precision:  27.41%; recall:  26.81%; FB1:  27.11  135
+           NegReg: precision:  75.86%; recall:  68.04%; FB1:  71.74  87
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  54.69%; recall:  68.63%; FB1:  60.87  64
+          Protein: precision:   8.00%; recall:  10.00%; FB1:   8.89  50
+              Reg: precision:  68.89%; recall:  46.44%; FB1:  55.48  180
+              Var: precision:  56.50%; recall:  68.12%; FB1:  61.77  469
+processed 43128 tokens with 1610 phrases; found: 1717 phrases; correct: 885.
+accuracy:  57.93%; (non-O)
+accuracy:  95.50%; precision:  51.54%; recall:  54.97%; FB1:  53.20
+              CPA: precision:  15.56%; recall:  16.67%; FB1:  16.09  45
+          Disease: precision:  51.29%; recall:  47.79%; FB1:  49.48  232
+           Enzyme: precision:  30.00%; recall:  23.08%; FB1:  26.09  10
+             Gene: precision:  62.39%; recall:  66.77%; FB1:  64.51  335
+      Interaction: precision:  15.38%; recall:  40.00%; FB1:  22.22  13
+              MPA: precision:  19.91%; recall:  30.43%; FB1:  24.07  211
+           NegReg: precision:  75.00%; recall:  71.13%; FB1:  73.02  92
+          Pathway: precision:  66.67%; recall:  33.33%; FB1:  44.44  3
+           PosReg: precision:  54.69%; recall:  68.63%; FB1:  60.87  64
+          Protein: precision:  10.00%; recall:  15.00%; FB1:  12.00  60
+              Reg: precision:  66.36%; recall:  53.18%; FB1:  59.04  214
+              Var: precision:  56.85%; recall:  64.01%; FB1:  60.22  438
+processed 43128 tokens with 1610 phrases; found: 1746 phrases; correct: 907.
+accuracy:  60.92%; (non-O)
+accuracy:  95.52%; precision:  51.95%; recall:  56.34%; FB1:  54.05
+              CPA: precision:  20.59%; recall:  16.67%; FB1:  18.42  34
+          Disease: precision:  44.78%; recall:  53.41%; FB1:  48.72  297
+           Enzyme: precision:  22.22%; recall:  15.38%; FB1:  18.18  9
+             Gene: precision:  62.64%; recall:  69.65%; FB1:  65.96  348
+      Interaction: precision:  16.67%; recall:  40.00%; FB1:  23.53  12
+              MPA: precision:  22.38%; recall:  34.06%; FB1:  27.01  210
+           NegReg: precision:  63.39%; recall:  73.20%; FB1:  67.94  112
+          Pathway: precision:  28.57%; recall:  33.33%; FB1:  30.77  7
+           PosReg: precision:  54.84%; recall:  66.67%; FB1:  60.18  62
+          Protein: precision:  12.90%; recall:  10.00%; FB1:  11.27  31
+              Reg: precision:  68.34%; recall:  50.94%; FB1:  58.37  199
+              Var: precision:  59.06%; recall:  64.52%; FB1:  61.67  425
+processed 43128 tokens with 1610 phrases; found: 1558 phrases; correct: 861.
+accuracy:  57.40%; (non-O)
+accuracy:  95.62%; precision:  55.26%; recall:  53.48%; FB1:  54.36
+              CPA: precision:  18.60%; recall:  19.05%; FB1:  18.82  43
+          Disease: precision:  56.22%; recall:  52.61%; FB1:  54.36  233
+           Enzyme: precision:  42.86%; recall:  46.15%; FB1:  44.44  14
+             Gene: precision:  64.12%; recall:  61.66%; FB1:  62.87  301
+      Interaction: precision:  25.00%; recall:  40.00%; FB1:  30.77  8
+              MPA: precision:  27.11%; recall:  32.61%; FB1:  29.61  166
+           NegReg: precision:  70.65%; recall:  67.01%; FB1:  68.78  92
+          Pathway: precision:  33.33%; recall:  33.33%; FB1:  33.33  6
+           PosReg: precision:  54.84%; recall:  66.67%; FB1:  60.18  62
+          Protein: precision:   9.38%; recall:   7.50%; FB1:   8.33  32
+              Reg: precision:  72.07%; recall:  48.31%; FB1:  57.85  179
+              Var: precision:  57.58%; recall:  62.47%; FB1:  59.93  422
+processed 43128 tokens with 1610 phrases; found: 1859 phrases; correct: 918.
+accuracy:  60.99%; (non-O)
+accuracy:  95.25%; precision:  49.38%; recall:  57.02%; FB1:  52.93
+              CPA: precision:  13.46%; recall:  16.67%; FB1:  14.89  52
+          Disease: precision:  43.53%; recall:  59.44%; FB1:  50.25  340
+           Enzyme: precision:  21.43%; recall:  23.08%; FB1:  22.22  14
+             Gene: precision:  55.58%; recall:  69.97%; FB1:  61.95  394
+      Interaction: precision:  18.18%; recall:  40.00%; FB1:  25.00  11
+              MPA: precision:  26.44%; recall:  33.33%; FB1:  29.49  174
+           NegReg: precision:  66.30%; recall:  62.89%; FB1:  64.55  92
+          Pathway: precision:  50.00%; recall:  50.00%; FB1:  50.00  6
+           PosReg: precision:  52.38%; recall:  64.71%; FB1:  57.89  63
+          Protein: precision:  13.95%; recall:  15.00%; FB1:  14.46  43
+              Reg: precision:  69.35%; recall:  51.69%; FB1:  59.23  199
+              Var: precision:  53.50%; recall:  64.78%; FB1:  58.60  471
+
