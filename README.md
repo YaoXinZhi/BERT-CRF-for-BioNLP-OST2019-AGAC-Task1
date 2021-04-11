@@ -39,5 +39,5 @@ The current model evaluation uses the Conlleval.pl script.
 ### Reference
 1. **Conlleval.py** https://github.com/sighsmile/conlleval
 2. **Conlleval.pl** https://www.clips.uantwerpen.be/conll2000/chunking/output.html
-3. **BioNLP OST-2019 AGAC Task**  https://sites.google.com/view/bionlp-ost19-agac-track
-
+3. **BioNLP OST-2019 AGAC Task**  https://sites.google.com/view/bionlp-ost19-agac-track  
+4. Wang, Yuxing, et al. **"An Overview of the Active Gene Annotation Corpus and the BioNLP OST 2019 AGAC Track Tasks."** Proceedings of The 5th Workshop on BioNLP Open Shared Tasks. 2019.
