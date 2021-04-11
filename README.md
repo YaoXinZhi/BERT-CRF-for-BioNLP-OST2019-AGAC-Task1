@@ -27,7 +27,7 @@ data/test_input.txt
 ```
 
 ### Evaluation
-The current model evaluation uses the Conlleval.pl script.  
+The current model evaluation uses the Conlleval.pl script. You can view the details of the model evaluation results through logging/conlleval.log
 **Best Model: (On test set)**   
 
  
