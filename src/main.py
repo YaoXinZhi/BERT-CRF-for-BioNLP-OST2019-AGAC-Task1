@@ -84,7 +84,7 @@ def main(paras):
     if args.save_log_file:
         logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s',
                             datefmt = '%m/%d/%Y %H:%M:%S',
-                            level = paras.logging_level',
+                            level = paras.logging_level,
                             filename=f'{paras.log_save_path}/{paras.log_file}',
                             filemode='w')
     else:
