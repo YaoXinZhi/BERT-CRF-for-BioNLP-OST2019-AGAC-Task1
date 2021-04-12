@@ -16,7 +16,7 @@ class args:
         self.label_file = '../data/label.txt'
 
         self.seed = 126
-        self.load_labeled_data = True
+        self.load_labeled_data = False
         self.model_name = 'dmis-lab/biobert-base-cased-v1.1'
         self.do_lower_case = False
 
@@ -46,11 +46,14 @@ class args:
         self.adam_epsilon = 1e-8
         self.num_warmup_steps=50
 
-        self.logging_step = 20
-        self.example_step = 10
-        self.print_example = True
+        self.print_example = False
+        self.save_log_file = True
+        # NOTSET, DEBUG, INFO,
         self.logging_level = logging.INFO
         self.log_save_path = '../logging'
-        self.model_save_name = 'bert-crf.pkl'
-        self.log_file = 'log.txt'
-        self.save_log_file = True
+        self.model_save_name = 'bert-crf.4-11.pkl'
+        self.log_file = 'log.4-11.txt'
+        self.checkpoint_file = 'checkpoint.4-11.log'
+
+
+

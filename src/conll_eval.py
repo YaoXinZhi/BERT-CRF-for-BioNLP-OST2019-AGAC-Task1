@@ -178,23 +178,24 @@ def get_result(correct_chunks, true_chunks, pred_chunks,
     if not verbose:
         return res
 
-    print("processed %i tokens with %i phrases; " % (sum_true_counts, sum_true_chunks), end='')
-    print("found: %i phrases; correct: %i.\n" % (sum_pred_chunks, sum_correct_chunks), end='')
+    logger.info(f'processed {sum_true_counts} tokens with {sum_true_chunks} phrases; '
+                f'found: {sum_pred_chunks} phrases; correct: {sum_correct_chunks}.')
 
     acc_non_o = 100*nonO_correct_counts/nonO_true_counts
     acc_inc_o = 100*sum_correct_counts/sum_true_counts
-    print("accuracy: %6.2f%%; (non-O)" % (acc_non_o))
-    print("accuracy: %6.2f%%; " % (acc_inc_o), end='')
-    print("precision: %6.2f%%; recall: %6.2f%%; FB1: %6.2f" % (precision, recall, f1_score))
+
+    logger.info(f'accuracy: {acc_non_o:6.2f}%; (non-O)')
+    logger.info(f'accuracy: {acc_inc_o:6.2f}%; '
+                f'precision: {precision:6.2f}%; recall: {recall:6.2f}%; '
+                f'FB1: {f1_score:6.2f}%')
 
     # for each chunk type, compute precision, recall and FB1 (default values are 0.0)
     for t in chunk_types:
         prec, rec, f1 = calc_metrics(correct_chunks[t], pred_chunks[t], true_chunks[t])
-        print("%17s: " % t, end='')
-        print("precision: %6.2f%%; recall: %6.2f%%; FB1: %6.2f" %
-              (prec, rec, f1), end='')
-        print("  %d" % pred_chunks[ t ])
 
+        logger.info(f'{t:>17}: '
+                    f'precision: {prec:6.2f}%; recall: {rec:6.2f}%; FB1: {f1:6.2f} '
+                    f' {pred_chunks[t]}')
 
     return res, acc_non_o, acc_inc_o
     # you can generate LaTeX output for tables like in
