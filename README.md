@@ -1,6 +1,11 @@
 ## BERT-CRF for BioNLP-OST2019 AGAC-Task1  
 
 
+### Cite  
+Please cite this follow work, if you use this code:  
+Wang, Yuxing, et al. **"An Overview of the Active Gene Annotation Corpus and the BioNLP OST 2019 AGAC Track Tasks."** Proceedings of The 5th Workshop on BioNLP Open Shared Tasks. 2019.
+
+
 ### Virtual Environment
 You can build a virtual environment for project operation.  
 ```
