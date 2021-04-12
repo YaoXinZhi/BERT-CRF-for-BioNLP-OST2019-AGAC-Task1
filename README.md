@@ -1,9 +1,9 @@
 ## BERT-CRF for BioNLP-OST2019 AGAC-Task1  
 
 
-### Cite  
-Please cite this follow work, if you use this code:  
-Wang, Yuxing, et al. **"An Overview of the Active Gene Annotation Corpus and the BioNLP OST 2019 AGAC Track Tasks."** Proceedings of The 5th Workshop on BioNLP Open Shared Tasks. 2019.
+### How to Cite us ?  
+Please cite follow work, if you use this code:  
+Yuxing Wang, Kaiyin Zhou, Mina Gachloo, Jingbo Xia*.** An Overview of the Active Gene Annotation Corpus and the BioNLP OST 2019 AGAC Track Tasks.** BioNLP Open Shared Task 2019, workshop in EMNLP-IJCNLP 2019. Page: 62-71, Hong Kong, 2019.
 
 
 ### Virtual Environment
