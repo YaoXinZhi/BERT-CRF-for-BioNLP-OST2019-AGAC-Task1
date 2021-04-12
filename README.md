@@ -1,4 +1,22 @@
-## BERT-CRF for BioNLP-OST2019 AGAC-Task1
+## BERT-CRF for BioNLP-OST2019 AGAC-Task1  
+
+
+### Virtual Environment
+You can build a virtual environment for project operation.  
+```
+#Building a virtual environment
+pip3 install virtualenv
+pip3 install virtualenvwrapper
+
+virtualenv -p /usr/local/bin/python3.6 $env_name --clear  
+
+# active venv.
+source $env_name/bin/activate  
+
+# deactive venv.
+deactivate
+```
+
 
 ### Requirements
 
