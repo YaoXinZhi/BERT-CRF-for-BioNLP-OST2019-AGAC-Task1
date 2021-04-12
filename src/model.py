@@ -17,7 +17,8 @@ class BertCRFTagger(nn.Module):
     def __init__(self, bert, hidden_size, num_tags, dropout):
         super().__init__()
         self.bert = bert
-        self.crf = CRF(num_tags, batch_first=True)
+        # del batch_first 210412
+        self.crf = CRF(num_tags) #, batch_first=True)
         self.fc = nn.Linear(hidden_size, num_tags)
         self.dropout = nn.Dropout(dropout)
 
@@ -28,7 +29,9 @@ class BertCRFTagger(nn.Module):
         emission = self.fc(last_hidden_state)
 
         if tags is not None:
-            loss = -self.crf(torch.log_softmax(emission, dim=2), tags, mask=mask, reduction='mean')
+            # reduction='mean' --> .mean() 210412
+            loss = -self.crf(torch.log_softmax(emission, dim=2), tags, mask=mask).mean()
+            #loss = -self.crf(torch.log_softmax(emission, dim=2), tags, mask=mask, reduction='mean')
             return loss
         else:
             prediction = self.crf.decode(emission, mask=mask)
