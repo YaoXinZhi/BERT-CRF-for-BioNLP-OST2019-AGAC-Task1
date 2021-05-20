@@ -82,7 +82,8 @@ The current model evaluation uses the Conlleval.pl script. You can view the deta
  
  **Model** | **Accuracy**  | **Precision** | **Recall**    | **F1-score**
  ---- | ----- | ------  | ------    | ------ 
- **BERT+CRF**  | **95.7730** | **54.6274**| **56.4596**| **55.5284**
+ **BERT+CRF**  | **95.7730** | **54.6274**| **56.4596**| **55.5284**  
+ **BioBERT (WordPiece)+CRF**  | **94.4856** | **87.1869**| **88.7542**| **87.9635**
 
 
 ### Reference
